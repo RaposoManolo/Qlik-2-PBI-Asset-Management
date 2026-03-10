@@ -6,7 +6,7 @@
     "y": 41.160409556313994,
     "z": 0,
     "height": 36.2457337883959,
-    "width": 121.02389078498294,
+    "width": 196.58703071672355,
     "tabOrder": 2000
   },
   "visual": {
@@ -20,15 +20,14 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "AUM"
+                      "Entity": "_Measures"
                     }
                   },
                   "Property": "AUM_Total"
                 }
               },
-              "queryRef": "AUM.AUM_Total",
-              "nativeQueryRef": "Total AUM",
-              "displayName": "Total AUM",
+              "queryRef": "_Measures.AUM_Total",
+              "nativeQueryRef": "AUM_Total",
               "format": "0.00"
             }
           ]
@@ -41,7 +40,7 @@
               "Measure": {
                 "Expression": {
                   "SourceRef": {
-                    "Entity": "AUM"
+                    "Entity": "_Measures"
                   }
                 },
                 "Property": "AUM_Total"
@@ -476,6 +475,19 @@
             }
           }
         }
+      ],
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
       ]
     },
     "drillFilterOtherVisuals": true
@@ -483,12 +495,12 @@
   "filterConfig": {
     "filters": [
       {
-        "name": "b009fcf68d0088c7970d",
+        "name": "6ee2e370a0dd850e82d3",
         "field": {
           "Measure": {
             "Expression": {
               "SourceRef": {
-                "Entity": "AUM"
+                "Entity": "_Measures"
               }
             },
             "Property": "AUM_Total"

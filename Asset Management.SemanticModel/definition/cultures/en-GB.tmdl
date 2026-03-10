@@ -6049,59 +6049,6 @@ cultureInfo en-GB
 			          }
 			        }
 			      ]
-			    },
-			    "aum.AUM_total": {
-			      "Definition": {
-			        "Binding": {
-			          "ConceptualEntity": "AUM",
-			          "ConceptualProperty": "AUM_Total"
-			        }
-			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "AUM total": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "AUM_Total": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.99
-			          }
-			        },
-			        {
-			          "aum aggregate": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.727
-			          }
-			        },
-			        {
-			          "aum overall": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.727
-			          }
-			        },
-			        {
-			          "Total AUM": {
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
-			        }
-			      ]
 			    }
 			  },
 			  "Relationships": {

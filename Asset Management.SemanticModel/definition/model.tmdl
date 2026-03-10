@@ -8,13 +8,15 @@ model Model
 
 annotation __PBI_TimeIntelligenceEnabled = 1
 
-annotation PBI_QueryOrder = ["Performance","Positions","AUM"]
+annotation PBI_QueryOrder = ["Performance","Positions","AUM","Currency"]
 
 annotation PBI_ProTooling = ["DevMode"]
 
 ref table Performance
 ref table Positions
 ref table AUM
+ref table _Measures
+ref table Currency
 
 ref cultureInfo en-GB
 

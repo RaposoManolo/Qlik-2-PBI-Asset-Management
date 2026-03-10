@@ -1,0 +1,30 @@
+table Currency
+	lineageTag: 21cacfcc-9306-4140-af1c-292bb9e0a782
+
+	column 'Currency Abr Name'
+		dataType: string
+		lineageTag: 7df91b95-f1b6-423d-92aa-7c2d502ac5e5
+		summarizeBy: none
+		sourceColumn: Currency Abr Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Curency Symbol'
+		dataType: string
+		lineageTag: 6ac639c3-4186-4fee-87dc-2c1477d1e219
+		summarizeBy: none
+		sourceColumn: Curency Symbol
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Currency = m
+		mode: import
+		source =
+				let
+				    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i45Wcg0NUtJRetS0RilWJ1rJ3SkAyDu0GMwJDXYBclSUYmMB", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#"Currency Abr Name" = _t, #"Curency Symbol" = _t]),
+				    #"Changed Type" = Table.TransformColumnTypes(Source,{{"Currency Abr Name", type text}, {"Curency Symbol", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

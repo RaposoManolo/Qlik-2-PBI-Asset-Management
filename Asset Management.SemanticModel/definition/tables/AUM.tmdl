@@ -1,28 +1,6 @@
 table AUM
 	lineageTag: 582b59fd-a348-416c-a483-3f722bed4d30
 
-	measure AUM_Total = ```
-			SUM(AUM[Asset_USD]) 
-			```
-		formatString: 0.00
-		lineageTag: 4466e23a-3ee1-4e68-93fc-5b9607993cc6
-
-	measure '% Equity' =
-			
-			DIVIDE(
-			    CALCULATE(
-			        SUM(AUM[Asset_USD]),
-			         AUM[Asset Class] = "Equity"
-			    ),
-			    CALCULATE(
-			        SUM(AUM[Asset_USD]),
-			        ALL(AUM[Asset Class])
-			    )
-			)
-		lineageTag: 1310d28f-be33-4bed-9acd-175b8afdf43e
-
-		annotation PBI_FormatHint = {"isGeneralNumber":true}
-
 	column '% of Fund'
 		dataType: double
 		lineageTag: 3d7ea2fd-1aa5-47ff-923a-78afbcec1468

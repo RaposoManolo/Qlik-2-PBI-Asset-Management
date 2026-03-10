@@ -3,7 +3,7 @@
   "name": "10c65fa467ee9b362576",
   "position": {
     "x": 0,
-    "y": 78.634812286689424,
+    "y": 117.33788395904438,
     "z": 5,
     "height": 149.28327645051195,
     "width": 1280.2730375426622,
@@ -20,13 +20,13 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "AUM"
+                      "Entity": "_Measures"
                     }
                   },
                   "Property": "% Equity"
                 }
               },
-              "queryRef": "AUM.% Equity",
+              "queryRef": "_Measures.% Equity",
               "nativeQueryRef": "% Equity"
             }
           ]
@@ -57,7 +57,7 @@
               "Measure": {
                 "Expression": {
                   "SourceRef": {
-                    "Entity": "AUM"
+                    "Entity": "_Measures"
                   }
                 },
                 "Property": "% Equity"
@@ -117,12 +117,12 @@
         "type": "Categorical"
       },
       {
-        "name": "a07646bf350de47d90c0",
+        "name": "36d0702e9abbb55db646",
         "field": {
           "Measure": {
             "Expression": {
               "SourceRef": {
-                "Entity": "AUM"
+                "Entity": "_Measures"
               }
             },
             "Property": "% Equity"

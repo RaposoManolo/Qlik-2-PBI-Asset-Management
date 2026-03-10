@@ -1,0 +1,69 @@
+table _Measures
+	lineageTag: ac22f882-feca-4c0a-bf62-a6edbcaa9951
+
+	measure AUM_Total = ```
+			
+			VAR SelectedCurrency = SELECTEDVALUE('Currency'[Currency Abr Name])
+			RETURN 
+			
+			SWITCH(SelectedCurrency,
+			        "USD", "$",
+			        "EUR", "€",
+			        "GBP", "£",
+			       "$" --Default
+			    )
+			& "" &
+			    SWITCH(SelectedCurrency,
+			        "USD", ROUND(SUM(AUM[Asset_USD])/1000000000, 2),
+			        "EUR", ROUND(SUM(AUM[Asset_EUR])/1000000000,2),
+			        "GBP", ROUND(SUM(AUM[Asset_GBP])/1000000000,2),
+			        ROUND(SUM(AUM[Asset_USD])/1000000000,2) --Default
+			    ) & "" & "bn"
+			```
+		lineageTag: 493a0ccd-671f-45f1-b031-9eae29412fb5
+
+	measure '% Equity' =
+			
+			DIVIDE(
+			    CALCULATE(
+			        SUM(AUM[Asset_USD]),
+			         AUM[Asset Class] = "Equity"
+			    ),
+			    CALCULATE(
+			        SUM(AUM[Asset_USD]),
+			        ALL(AUM[Asset Class])
+			    )
+			)
+		lineageTag: 3bca7047-6fa9-43b9-bfbd-442c08bfd0e6
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure AUM_Total_Format =
+			
+			VAR SelectedCurrency = SELECTEDVALUE('Currency'[Currency Abr Name])
+			RETURN
+			    SWITCH(SelectedCurrency,
+			        "USD", "$#,##0.00",
+			        "EUR", "€#,##0.00",
+			        "GBP", "£#,##0.00",
+			        "$#,##0.00" --Default
+			    )
+		lineageTag: 1a85da52-d49d-4967-82a8-58a7b9c01cc7
+
+	column Column
+		formatString: 0
+		lineageTag: 880fcbc7-6739-457a-83aa-a14cb956105b
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Column]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition _Measures = calculated
+		mode: import
+		source = Row("Column", BLANK())
+
+	annotation PBI_Id = 4308874ce10747bfbbc7d9c7d79e933a
+
+	annotation 436ba87b-9c83-4389-a31b-ebd06a36be98 = {"Expression":""}
+
