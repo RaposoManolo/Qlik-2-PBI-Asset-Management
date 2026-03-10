@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Asset Management"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "4b896c4d-4601-46d2-8062-15b4276c347e"
+  }
+}

@@ -1,0 +1,233 @@
+table AUM
+	lineageTag: 582b59fd-a348-416c-a483-3f722bed4d30
+
+	measure AUM_Total = ```
+			SUM(AUM[Asset_USD]) 
+			```
+		formatString: 0.00
+		lineageTag: 4466e23a-3ee1-4e68-93fc-5b9607993cc6
+
+	measure '% Equity' =
+			
+			DIVIDE(
+			    CALCULATE(
+			        SUM(AUM[Asset_USD]),
+			         AUM[Asset Class] = "Equity"
+			    ),
+			    CALCULATE(
+			        SUM(AUM[Asset_USD]),
+			        ALL(AUM[Asset Class])
+			    )
+			)
+		lineageTag: 1310d28f-be33-4bed-9acd-175b8afdf43e
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column '% of Fund'
+		dataType: double
+		lineageTag: 3d7ea2fd-1aa5-47ff-923a-78afbcec1468
+		summarizeBy: sum
+		sourceColumn: % of Fund
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column %Key
+		dataType: string
+		lineageTag: ae03c934-8790-4447-9d57-6d43373f11d9
+		summarizeBy: none
+		sourceColumn: %Key
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Account Name'
+		dataType: string
+		lineageTag: 0e85809b-1eb4-4e37-bb87-621b6b6292ff
+		summarizeBy: none
+		sourceColumn: Account Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Asset Class'
+		dataType: string
+		lineageTag: 04956099-fbc8-44cb-9bfc-76d611c4b458
+		summarizeBy: none
+		sourceColumn: Asset Class
+
+		annotation SummarizationSetBy = Automatic
+
+	column Asset_EUR
+		dataType: double
+		lineageTag: a8b57a3d-076d-43c2-85ff-637759ef812d
+		summarizeBy: sum
+		sourceColumn: Asset_EUR
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Asset_GBP
+		dataType: double
+		lineageTag: cfdfde9d-c496-4dd6-a16d-f2f7734ee8a7
+		summarizeBy: sum
+		sourceColumn: Asset_GBP
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Asset_USD
+		dataType: double
+		lineageTag: 7d7ffd7d-6959-4946-8933-de4b74eb3e00
+		summarizeBy: sum
+		sourceColumn: Asset_USD
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Business Type'
+		dataType: string
+		lineageTag: 4000632f-9dd5-4f9f-864a-c3dc3541c43c
+		summarizeBy: none
+		sourceColumn: Business Type
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Business Unit'
+		dataType: string
+		lineageTag: 7f046640-b4de-4f57-8310-62e05a065830
+		summarizeBy: none
+		sourceColumn: Business Unit
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Capability / Investment Style'
+		dataType: string
+		lineageTag: 2223d991-f979-4708-9297-f2fa5e9abf2f
+		summarizeBy: none
+		sourceColumn: Capability / Investment Style
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Client Country'
+		dataType: string
+		lineageTag: 6f5f80e4-a958-4a17-811d-9bca54dc22a0
+		summarizeBy: none
+		sourceColumn: Client Country
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Client Region'
+		dataType: string
+		lineageTag: 286badbf-29ff-4403-89e9-6ee3b1674b3d
+		summarizeBy: none
+		sourceColumn: Client Region
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Client Type'
+		dataType: string
+		lineageTag: c98defb0-db30-4bcb-9e88-b6d8b9abeed6
+		summarizeBy: none
+		sourceColumn: Client Type
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Fund Code - AUM'
+		dataType: string
+		lineageTag: 7a4c56f0-86b9-476d-bb57-1e220dac0a11
+		summarizeBy: none
+		sourceColumn: Fund Code - AUM
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Fund Type'
+		dataType: string
+		lineageTag: c25b367e-7f07-4a90-8049-dda52daec821
+		summarizeBy: none
+		sourceColumn: Fund Type
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Gross fund val'
+		dataType: string
+		lineageTag: 8afec650-96ef-4b74-b358-20469f215595
+		summarizeBy: none
+		sourceColumn: Gross fund val
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Investment Intensity'
+		dataType: string
+		lineageTag: 1c822087-cf8e-442a-bed0-1c4a57b222f2
+		summarizeBy: none
+		sourceColumn: Investment Intensity
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Investment Region'
+		dataType: string
+		lineageTag: d6667510-c15a-46c4-8999-7c09e68d0c32
+		summarizeBy: none
+		sourceColumn: Investment Region
+
+		annotation SummarizationSetBy = Automatic
+
+	column Investor
+		dataType: string
+		lineageTag: 01dc0962-4b98-4f00-924d-6558f171e7a9
+		summarizeBy: none
+		sourceColumn: Investor
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Pooled Fund (if applicable)'
+		dataType: string
+		lineageTag: 0353d8b6-7b8d-453c-89e3-87e7ff162c38
+		summarizeBy: none
+		sourceColumn: Pooled Fund (if applicable)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Referral Source'
+		dataType: string
+		lineageTag: 4d78e247-72da-4e4c-bcf1-b04a653f660e
+		summarizeBy: none
+		sourceColumn: Referral Source
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Segregated / Pooled'
+		dataType: string
+		lineageTag: 6d3cf15d-85cc-4a96-ae7b-9aa0a2b1ee3b
+		summarizeBy: none
+		sourceColumn: Segregated / Pooled
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Tax Status'
+		dataType: string
+		lineageTag: af864c69-a2a8-4285-bdba-1c3b1aed5279
+		summarizeBy: none
+		sourceColumn: Tax Status
+
+		annotation SummarizationSetBy = Automatic
+
+	partition AUM = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("C:\Users\Iuri.Raposo\OneDrive - Keyrus\Documents\Case Studies\Asset Management\AUM.xlsx"), null, true),
+				    Sheet1_Sheet = Source{[Item="Sheet1",Kind="Sheet"]}[Data],
+				    #"Promoted Headers" = Table.PromoteHeaders(Sheet1_Sheet, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"% of Fund", type number}, {"%Key", type text}, {"Account Name", type text}, {"Asset Class", type text}, {"Asset_EUR", type number}, {"Asset_GBP", type number}, {"Asset_USD", type number}, {"Business Type", type text}, {"Business Unit", type text}, {"Capability / Investment Style", type text}, {"Client Country", type text}, {"Client Region", type text}, {"Client Type", type text}, {"Fund Code - AUM", type text}, {"Fund Type", type text}, {"Gross fund val", type text}, {"Investment Intensity", type text}, {"Investment Region", type text}, {"Investor", type text}, {"Pooled Fund (if applicable)", type text}, {"Referral Source", type text}, {"Segregated / Pooled", type text}, {"Tax Status", type text}}),
+				    #"Replaced Errors" = Table.ReplaceErrorValues(#"Changed Type", {{"% of Fund", 0}})
+				in
+				    #"Replaced Errors"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,180 @@
+table Positions
+	lineageTag: 9c929786-43c5-4f0e-823c-a5daa22ba240
+
+	column %Key
+		dataType: string
+		lineageTag: 5e13f0c3-347d-4ade-a044-986780532244
+		summarizeBy: none
+		sourceColumn: %Key
+
+		annotation SummarizationSetBy = Automatic
+
+	column AvgCost
+		dataType: string
+		lineageTag: 374d489d-b1a2-403b-a116-b5866e82eab3
+		summarizeBy: none
+		sourceColumn: AvgCost
+
+		annotation SummarizationSetBy = Automatic
+
+	column ClosingPrice
+		dataType: string
+		lineageTag: c888c5d0-1903-4ece-9235-e1e5b1aea22e
+		summarizeBy: none
+		sourceColumn: ClosingPrice
+
+		annotation SummarizationSetBy = Automatic
+
+	column Cost
+		dataType: string
+		lineageTag: 719fe548-0a56-4c35-b8eb-55a075687786
+		summarizeBy: none
+		sourceColumn: Cost
+
+		annotation SummarizationSetBy = Automatic
+
+	column Curr
+		dataType: string
+		lineageTag: bb257124-5238-48f1-9f9c-2b0e7a40bf35
+		summarizeBy: none
+		sourceColumn: Curr
+
+		annotation SummarizationSetBy = Automatic
+
+	column CUSIP
+		dataType: string
+		lineageTag: 4eb22ce7-f4aa-4336-a6b8-b8330e89aad0
+		summarizeBy: none
+		sourceColumn: CUSIP
+
+		annotation SummarizationSetBy = Automatic
+
+	column Desk
+		dataType: string
+		lineageTag: d0bd5264-8029-4969-8bc7-a30527b5b87b
+		summarizeBy: none
+		sourceColumn: Desk
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'FTSE Industry'
+		dataType: string
+		lineageTag: d72f97bc-1fb0-4555-928c-5849feda4728
+		summarizeBy: none
+		sourceColumn: FTSE Industry
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'FTSE Sector'
+		dataType: string
+		lineageTag: d1615198-a330-4046-a7c3-245e666e7fdc
+		summarizeBy: none
+		sourceColumn: FTSE Sector
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Fund Code - Position'
+		dataType: string
+		lineageTag: 94bdeef9-b5b8-4164-a133-fe39c561745b
+		summarizeBy: none
+		sourceColumn: Fund Code - Position
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Fund Code - Position Org'
+		dataType: string
+		lineageTag: 92361675-983d-4949-840f-bfde31850905
+		summarizeBy: none
+		sourceColumn: Fund Code - Position Org
+
+		annotation SummarizationSetBy = Automatic
+
+	column LastExecPrice
+		dataType: string
+		lineageTag: 99f909fc-42ac-4d78-b536-6df94188ba35
+		summarizeBy: none
+		sourceColumn: LastExecPrice
+
+		annotation SummarizationSetBy = Automatic
+
+	column Mkt
+		dataType: string
+		lineageTag: 91e30ad5-2ff9-4aad-be68-0b91cce714d3
+		summarizeBy: none
+		sourceColumn: Mkt
+
+		annotation SummarizationSetBy = Automatic
+
+	column OpenPrice
+		dataType: string
+		lineageTag: 7897ee37-57a1-4552-b65b-5eff72942821
+		summarizeBy: none
+		sourceColumn: OpenPrice
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Position Created Date'
+		dataType: string
+		lineageTag: 5ed5a1fa-a6fa-47d5-ac00-60d03aa554ea
+		summarizeBy: none
+		sourceColumn: Position Created Date
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Position Value Date'
+		dataType: string
+		lineageTag: 254ca9f0-4c6c-4d64-8710-914058ccc765
+		summarizeBy: none
+		sourceColumn: Position Value Date
+
+		annotation SummarizationSetBy = Automatic
+
+	column Quantity
+		dataType: string
+		lineageTag: 1d0b33f3-60ee-44e1-930a-95c1f048dbb5
+		summarizeBy: none
+		sourceColumn: Quantity
+
+		annotation SummarizationSetBy = Automatic
+
+	column sharesOutstanding
+		dataType: string
+		lineageTag: e5adf741-6593-41c5-94f5-8a7e9a144d5b
+		summarizeBy: none
+		sourceColumn: sharesOutstanding
+
+		annotation SummarizationSetBy = Automatic
+
+	column strikePrice
+		dataType: string
+		lineageTag: 99b733bc-7124-47fe-b375-4f3211795c85
+		summarizeBy: none
+		sourceColumn: strikePrice
+
+		annotation SummarizationSetBy = Automatic
+
+	column Value
+		dataType: string
+		lineageTag: 4cd1e992-846d-4472-bcfe-6c9f03007f34
+		summarizeBy: none
+		sourceColumn: Value
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Positions = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("C:\Users\Iuri.Raposo\OneDrive - Keyrus\Documents\Case Studies\Asset Management\Position.xlsx"), null, true),
+				    Sheet1_Sheet = Source{[Item="Sheet1",Kind="Sheet"]}[Data],
+				    #"Promoted Headers" = Table.PromoteHeaders(Sheet1_Sheet, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"%Key", type text}, {"AvgCost", type text}, {"ClosingPrice", type text}, {"Cost", type text}, {"Curr", type text}, {"CUSIP", type text}, {"Desk", type text}, {"FTSE Industry", type text}, {"FTSE Sector", type text}, {"Fund Code - Position", type text}, {"Fund Code - Position Org", type text}, {"LastExecPrice", type text}, {"Mkt", type text}, {"OpenPrice", type text}, {"Position Created Date", type any}, {"Position Value Date", type any}, {"Quantity", type text}, {"sharesOutstanding", type text}, {"strikePrice", type text}, {"Value", type text}})
+				in
+				    #"Changed Type"
+
+	changedProperty = Name
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,218 @@
+table Performance
+	lineageTag: ef9e4f2d-a066-4b91-be7f-faebda5852b3
+
+	column %Key
+		dataType: string
+		lineageTag: 2766cfcf-a07e-4193-b4da-7508c0491793
+		summarizeBy: none
+		sourceColumn: %Key
+
+		annotation SummarizationSetBy = Automatic
+
+	column Department
+		dataType: string
+		lineageTag: 7b3546a3-7ff6-492d-b11d-d76fc7f9546e
+		summarizeBy: none
+		sourceColumn: Department
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Fund Code'
+		dataType: string
+		lineageTag: 4f5455e3-2e62-44f5-a8cf-6bb89f088165
+		summarizeBy: none
+		sourceColumn: Fund Code
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Fund Code - Performance'
+		dataType: string
+		lineageTag: 28c759dc-3c2d-4238-b901-25741055abc9
+		summarizeBy: none
+		sourceColumn: Fund Code - Performance
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Fund Manager'
+		dataType: string
+		lineageTag: dd801dad-4ba9-48c4-a10a-18892ca75479
+		summarizeBy: none
+		sourceColumn: Fund Manager
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Fund Name'
+		dataType: string
+		lineageTag: d24b3557-09fa-47cf-b2ad-303fefb4a6c1
+		summarizeBy: none
+		sourceColumn: Fund Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column FundSizeM_EUR
+		dataType: string
+		lineageTag: 3e37907b-9990-4d7f-9405-122e2c7641ec
+		summarizeBy: none
+		sourceColumn: FundSizeM_EUR
+
+		annotation SummarizationSetBy = Automatic
+
+	column FundSizeM_GBP
+		dataType: string
+		lineageTag: caf539dd-9e2a-4c9d-994f-3fe25e875f94
+		summarizeBy: none
+		sourceColumn: FundSizeM_GBP
+
+		annotation SummarizationSetBy = Automatic
+
+	column FundSizeM_USD
+		dataType: string
+		lineageTag: 23674b7e-5ea6-4a2f-b35f-06b2f9019e59
+		summarizeBy: none
+		sourceColumn: FundSizeM_USD
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Measure 1'
+		dataType: string
+		lineageTag: 0ffad598-7ed4-442c-8312-6ddf464fcc9b
+		summarizeBy: none
+		sourceColumn: Measure 1
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Measure 1 1 Month'
+		dataType: string
+		lineageTag: 27f2315c-736d-4860-a45c-cdab67b6c31d
+		summarizeBy: none
+		sourceColumn: Measure 1 1 Month
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Measure 1 1 Yr'
+		dataType: string
+		lineageTag: 196847e7-50bc-4bde-a479-0af9f75ff591
+		summarizeBy: none
+		sourceColumn: Measure 1 1 Yr
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Measure 1 3 Months'
+		dataType: string
+		lineageTag: c9999920-236b-4ec9-8d27-6df9f629dfe4
+		summarizeBy: none
+		sourceColumn: Measure 1 3 Months
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Measure 1 3 Yrs ann'
+		dataType: string
+		lineageTag: b1b090d3-a219-473a-a70a-94f7f05f1c1f
+		summarizeBy: none
+		sourceColumn: Measure 1 3 Yrs ann
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Measure 1 5 Yrs ann'
+		dataType: string
+		lineageTag: ed56db32-1f6a-46c7-b99b-74242ca95e83
+		summarizeBy: none
+		sourceColumn: Measure 1 5 Yrs ann
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Measure 1 YTD'
+		dataType: string
+		lineageTag: b8813767-7630-4ecb-a4d3-f3d2254caf5f
+		summarizeBy: none
+		sourceColumn: Measure 1 YTD
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Original Fund Manager'
+		dataType: string
+		lineageTag: 1f5f0633-0b16-4b92-a56a-0b7fdda7322f
+		summarizeBy: none
+		sourceColumn: Original Fund Manager
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Original Fund Name'
+		dataType: string
+		lineageTag: 05d6dc4a-e4b7-4443-8534-8427fdad2f00
+		summarizeBy: none
+		sourceColumn: Original Fund Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Performance Currency'
+		dataType: string
+		lineageTag: cb35d0c3-fc59-46ba-a873-2997a1065fe4
+		summarizeBy: none
+		sourceColumn: Performance Currency
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Performance Desk'
+		dataType: string
+		lineageTag: 53ee2e1e-f5c0-4423-aa82-e1fc398ed718
+		summarizeBy: none
+		sourceColumn: Performance Desk
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Performance Symbol'
+		dataType: string
+		lineageTag: 34de6eb9-7088-4977-af4d-656fe9c65fd3
+		summarizeBy: none
+		sourceColumn: Performance Symbol
+
+		annotation SummarizationSetBy = Automatic
+
+	column PerformanceId
+		dataType: string
+		lineageTag: 56ed5362-1fc2-4462-af53-187a32210650
+		summarizeBy: none
+		sourceColumn: PerformanceId
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Product Type'
+		dataType: string
+		lineageTag: b7ec0da4-c877-4854-8868-c00f4a95097a
+		summarizeBy: none
+		sourceColumn: Product Type
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Profile Summary'
+		dataType: string
+		lineageTag: 04691afd-d7e8-4f7e-b3f6-2097c744e9d6
+		summarizeBy: none
+		sourceColumn: Profile Summary
+
+		annotation SummarizationSetBy = Automatic
+
+	column ProfileNo
+		dataType: string
+		lineageTag: 90dddbbc-92c0-4de1-a0b6-f083053bff55
+		summarizeBy: none
+		sourceColumn: ProfileNo
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Performance = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("C:\Users\Iuri.Raposo\OneDrive - Keyrus\Documents\Case Studies\Asset Management\Performance.xlsx"), null, true),
+				    Sheet1_Sheet = Source{[Item="Sheet1",Kind="Sheet"]}[Data],
+				    #"Promoted Headers" = Table.PromoteHeaders(Sheet1_Sheet, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"%Key", type text}, {"Department", type text}, {"Fund Code", type text}, {"Fund Code - Performance", type text}, {"Fund Manager", type text}, {"Fund Name", type text}, {"FundSizeM_EUR", type any}, {"FundSizeM_GBP", type any}, {"FundSizeM_USD", type any}, {"Measure 1", type text}, {"Measure 1 1 Month", type any}, {"Measure 1 1 Yr", type any}, {"Measure 1 3 Months", type any}, {"Measure 1 3 Yrs ann", type any}, {"Measure 1 5 Yrs ann", type any}, {"Measure 1 YTD", type any}, {"Original Fund Manager", type text}, {"Original Fund Name", type text}, {"Performance Currency", type text}, {"Performance Desk", type text}, {"Performance Symbol", type text}, {"PerformanceId", type any}, {"Product Type", type text}, {"Profile Summary", type text}, {"ProfileNo", type any}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+
