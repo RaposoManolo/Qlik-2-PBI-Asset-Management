@@ -5,7 +5,7 @@
     "x": 0,
     "y": 117.33788395904438,
     "z": 3000,
-    "height": 149.28327645051195,
+    "height": 405.4607508532423,
     "width": 1280.2730375426622,
     "tabOrder": 3000
   },
@@ -175,6 +175,20 @@
             }
           ]
         }
+      },
+      {
+        "name": "b315465d046012952277",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "_Measures"
+              }
+            },
+            "Property": "% Equity"
+          }
+        },
+        "type": "Advanced"
       }
     ]
   }

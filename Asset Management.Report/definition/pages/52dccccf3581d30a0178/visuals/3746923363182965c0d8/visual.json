@@ -5,8 +5,8 @@
     "x": 798.02047781569968,
     "y": 47.918088737201366,
     "z": 6002,
-    "height": 44.846416382252563,
-    "width": 398.70307167235495,
+    "height": 47.303754266211605,
+    "width": 380.88737201365188,
     "tabOrder": 6002
   },
   "visual": {
@@ -85,6 +85,13 @@
         {
           "properties": {
             "singleSelect": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "strictSingleSelect": {
               "expr": {
                 "Literal": {
                   "Value": "true"
@@ -185,6 +192,24 @@
               }
             }
           }
+        },
+        {
+          "properties": {
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#79640b'"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "selection:selected"
+          }
         }
       ],
       "label": [
@@ -258,6 +283,20 @@
             "id": "default",
             "hierarchyMatching": 1
           }
+        },
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "selection:selected"
+          }
         }
       ],
       "image": [
@@ -300,6 +339,65 @@
                 }
               }
             }
+          }
+        },
+        {
+          "properties": {
+            "overlayToggle": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "spacing": {
+              "expr": {
+                "Literal": {
+                  "Value": "8L"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "showIconByState": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "default",
+            "hierarchyMatching": 1
+          }
+        },
+        {
+          "properties": {
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#79640b'"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "selection:selected"
           }
         }
       ],
@@ -352,6 +450,20 @@
           "selector": {
             "id": "default"
           }
+        },
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "selection:selected"
+          }
         }
       ],
       "outline": [
@@ -367,6 +479,20 @@
           },
           "selector": {
             "id": "default"
+          }
+        },
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "selection:selected"
           }
         }
       ],
@@ -445,7 +571,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'n'"
+                  "Value": "'Currency list'"
                 }
               }
             }
@@ -471,7 +597,19 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": -0.1
+                    }
+                  }
                 }
               }
             }
