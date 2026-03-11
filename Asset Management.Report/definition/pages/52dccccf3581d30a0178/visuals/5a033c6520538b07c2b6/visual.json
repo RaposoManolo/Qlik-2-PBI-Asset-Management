@@ -491,23 +491,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "6ee2e370a0dd850e82d3",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "_Measures"
-              }
-            },
-            "Property": "AUM_Total"
-          }
-        },
-        "type": "Advanced"
-      }
-    ]
   }
 }

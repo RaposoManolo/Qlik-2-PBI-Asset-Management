@@ -23,7 +23,8 @@ table _Measures
 			    ),
 			    CALCULATE(
 			        SUM(AUM[Asset_USD]),
-			        ALL(AUM[Asset Class])
+			        ALL(AUM[Asset Class]),
+			        AUM[Asset Class]<>BLANK()
 			    )
 			)
 		lineageTag: 3bca7047-6fa9-43b9-bfbd-442c08bfd0e6

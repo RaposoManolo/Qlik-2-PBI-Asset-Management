@@ -1,0 +1,72 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "c1a02492863d6c99b190",
+  "position": {
+    "x": 22.730375426621162,
+    "y": 305.32423208191125,
+    "z": 6003,
+    "height": 352.62798634812287,
+    "width": 203.95904436860067,
+    "tabOrder": 6003
+  },
+  "visual": {
+    "visualType": "slicer",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AUM"
+                    }
+                  },
+                  "Property": "Business Type"
+                }
+              },
+              "queryRef": "AUM.Business Type",
+              "nativeQueryRef": "Business Type",
+              "active": true
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "data": [
+        {
+          "properties": {
+            "mode": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Basic'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "c2ba7725c60c9444bb70",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "AUM"
+              }
+            },
+            "Property": "Business Type"
+          }
+        },
+        "type": "Categorical"
+      }
+    ]
+  }
+}

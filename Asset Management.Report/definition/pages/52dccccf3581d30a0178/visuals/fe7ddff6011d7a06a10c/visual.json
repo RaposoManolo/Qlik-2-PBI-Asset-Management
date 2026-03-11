@@ -4,7 +4,7 @@
   "position": {
     "x": 143.50515463917526,
     "y": 47.628865979381445,
-    "z": 2,
+    "z": 2000,
     "height": 30.927835051546392,
     "width": 92.164948453608247,
     "tabOrder": 1000
@@ -22,7 +22,7 @@
                     "value": "Total AUM",
                     "textStyle": {
                       "fontWeight": "bold",
-                      "color": "#a38600"
+                      "color": "#79640b"
                     }
                   }
                 ]
