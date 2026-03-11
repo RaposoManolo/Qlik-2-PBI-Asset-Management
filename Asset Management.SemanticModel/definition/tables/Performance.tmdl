@@ -205,7 +205,7 @@ table Performance
 		mode: import
 		source =
 				let
-				    Source = Excel.Workbook(File.Contents("C:\Users\Iuri.Raposo\OneDrive - Keyrus\Documents\Case Studies\Asset Management\Performance.xlsx"), null, true),
+				    Source = Excel.Workbook(File.Contents("C:\Users\Iuri.Raposo\OneDrive - Keyrus\Documents\Case Studies\Asset Management\DataSource\Performance.xlsx"), null, true),
 				    Sheet1_Sheet = Source{[Item="Sheet1",Kind="Sheet"]}[Data],
 				    #"Promoted Headers" = Table.PromoteHeaders(Sheet1_Sheet, [PromoteAllScalars=true]),
 				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"%Key", type text}, {"Department", type text}, {"Fund Code", type text}, {"Fund Code - Performance", type text}, {"Fund Manager", type text}, {"Fund Name", type text}, {"FundSizeM_EUR", type any}, {"FundSizeM_GBP", type any}, {"FundSizeM_USD", type any}, {"Measure 1", type text}, {"Measure 1 1 Month", type any}, {"Measure 1 1 Yr", type any}, {"Measure 1 3 Months", type any}, {"Measure 1 3 Yrs ann", type any}, {"Measure 1 5 Yrs ann", type any}, {"Measure 1 YTD", type any}, {"Original Fund Manager", type text}, {"Original Fund Name", type text}, {"Performance Currency", type text}, {"Performance Desk", type text}, {"Performance Symbol", type text}, {"PerformanceId", type any}, {"Product Type", type text}, {"Profile Summary", type text}, {"ProfileNo", type any}})

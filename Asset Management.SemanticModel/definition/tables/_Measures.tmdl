@@ -5,18 +5,10 @@ table _Measures
 			
 			VAR SelectedCurrency = SELECTEDVALUE('Currency'[Currency Abr Name])
 			RETURN 
-			
-			SWITCH(SelectedCurrency,
-			        "USD", "$",
-			        "EUR", "€",
-			        "GBP", "£",
-			       "$" --Default
-			    )
-			& "" &
 			    SWITCH(SelectedCurrency,
-			        "USD", ROUND(SUM(AUM[Asset_USD])/1000000000, 2),
-			        "EUR", ROUND(SUM(AUM[Asset_EUR])/1000000000,2),
-			        "GBP", ROUND(SUM(AUM[Asset_GBP])/1000000000,2),
+			        "USD",  "$" & ROUND(SUM(AUM[Asset_USD])/1000000000, 2),
+			        "EUR", "€" &ROUND(SUM(AUM[Asset_EUR])/1000000000,2),
+			        "GBP", "£" & ROUND(SUM(AUM[Asset_GBP])/1000000000,2),
 			        ROUND(SUM(AUM[Asset_USD])/1000000000,2) --Default
 			    ) & "" & "bn"
 			```

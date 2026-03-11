@@ -165,14 +165,12 @@ table Positions
 		mode: import
 		source =
 				let
-				    Source = Excel.Workbook(File.Contents("C:\Users\Iuri.Raposo\OneDrive - Keyrus\Documents\Case Studies\Asset Management\Position.xlsx"), null, true),
+				    Source = Excel.Workbook(File.Contents("C:\Users\Iuri.Raposo\OneDrive - Keyrus\Documents\Case Studies\Asset Management\DataSource\Position.xlsx"), null, true),
 				    Sheet1_Sheet = Source{[Item="Sheet1",Kind="Sheet"]}[Data],
 				    #"Promoted Headers" = Table.PromoteHeaders(Sheet1_Sheet, [PromoteAllScalars=true]),
 				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"%Key", type text}, {"AvgCost", type text}, {"ClosingPrice", type text}, {"Cost", type text}, {"Curr", type text}, {"CUSIP", type text}, {"Desk", type text}, {"FTSE Industry", type text}, {"FTSE Sector", type text}, {"Fund Code - Position", type text}, {"Fund Code - Position Org", type text}, {"LastExecPrice", type text}, {"Mkt", type text}, {"OpenPrice", type text}, {"Position Created Date", type any}, {"Position Value Date", type any}, {"Quantity", type text}, {"sharesOutstanding", type text}, {"strikePrice", type text}, {"Value", type text}})
 				in
 				    #"Changed Type"
-
-	changedProperty = Name
 
 	annotation PBI_NavigationStepName = Navigation
 

@@ -197,7 +197,7 @@ table AUM
 		mode: import
 		source =
 				let
-				    Source = Excel.Workbook(File.Contents("C:\Users\Iuri.Raposo\OneDrive - Keyrus\Documents\Case Studies\Asset Management\AUM.xlsx"), null, true),
+				    Source = Excel.Workbook(File.Contents("C:\Users\Iuri.Raposo\OneDrive - Keyrus\Documents\Case Studies\Asset Management\DataSource\AUM.xlsx"), null, true),
 				    Sheet1_Sheet = Source{[Item="Sheet1",Kind="Sheet"]}[Data],
 				    #"Promoted Headers" = Table.PromoteHeaders(Sheet1_Sheet, [PromoteAllScalars=true]),
 				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"% of Fund", type number}, {"%Key", type text}, {"Account Name", type text}, {"Asset Class", type text}, {"Asset_EUR", type number}, {"Asset_GBP", type number}, {"Asset_USD", type number}, {"Business Type", type text}, {"Business Unit", type text}, {"Capability / Investment Style", type text}, {"Client Country", type text}, {"Client Region", type text}, {"Client Type", type text}, {"Fund Code - AUM", type text}, {"Fund Type", type text}, {"Gross fund val", type text}, {"Investment Intensity", type text}, {"Investment Region", type text}, {"Investor", type text}, {"Pooled Fund (if applicable)", type text}, {"Referral Source", type text}, {"Segregated / Pooled", type text}, {"Tax Status", type text}}),
