@@ -4,10 +4,10 @@
   "position": {
     "x": 798.02047781569968,
     "y": 47.918088737201366,
-    "z": 6002,
+    "z": 6000,
     "height": 47.303754266211605,
     "width": 380.88737201365188,
-    "tabOrder": 6002
+    "tabOrder": 6000
   },
   "visual": {
     "visualType": "advancedSlicerVisual",
@@ -67,7 +67,7 @@
                           [
                             {
                               "Literal": {
-                                "Value": "'USD'"
+                                "Value": "'EUR'"
                               }
                             }
                           ]
@@ -697,7 +697,7 @@
         "howCreated": "User"
       },
       {
-        "name": "097c099d189b709d3c89",
+        "name": "b20575d7793c22134686",
         "field": {
           "Column": {
             "Expression": {

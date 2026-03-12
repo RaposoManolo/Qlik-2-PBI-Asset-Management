@@ -175,20 +175,6 @@
             }
           ]
         }
-      },
-      {
-        "name": "b315465d046012952277",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "_Measures"
-              }
-            },
-            "Property": "% Equity"
-          }
-        },
-        "type": "Advanced"
       }
     ]
   }
