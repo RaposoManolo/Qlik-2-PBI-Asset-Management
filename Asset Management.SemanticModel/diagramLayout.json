@@ -4,13 +4,13 @@
     {
       "ordinal": 0,
       "scrollPosition": {
-        "x": 0,
-        "y": 0
+        "x": 137,
+        "y": 92
       },
       "nodes": [
         {
           "location": {
-            "x": 517,
+            "x": 297,
             "y": 0
           },
           "nodeIndex": "Performance",
@@ -19,55 +19,59 @@
             "height": 300,
             "width": 234
           },
-          "zIndex": 3
+          "zIndex": 4
         },
         {
           "location": {
-            "x": 997,
+            "x": 860,
             "y": 0
           },
           "nodeIndex": "Positions",
+          "nodeLineageTag": "9c929786-43c5-4f0e-823c-a5daa22ba240",
           "size": {
             "height": 300,
             "width": 234
           },
-          "zIndex": 0
+          "zIndex": 1
         },
         {
           "location": {
-            "x": 764,
+            "x": 579,
             "y": 0
           },
           "nodeIndex": "AUM",
+          "nodeLineageTag": "582b59fd-a348-416c-a483-3f722bed4d30",
           "size": {
             "height": 300,
             "width": 234
           },
-          "zIndex": 0
+          "zIndex": 5
         },
         {
           "location": {
-            "x": 764,
-            "y": 50
+            "x": 566,
+            "y": 346
           },
           "nodeIndex": "_Measures",
+          "nodeLineageTag": "ac22f882-feca-4c0a-bf62-a6edbcaa9951",
           "size": {
             "height": 200,
             "width": 234
           },
-          "zIndex": 0
+          "zIndex": 2
         },
         {
           "location": {
-            "x": 764,
-            "y": 50
+            "x": 0,
+            "y": 18
           },
           "nodeIndex": "Currency",
+          "nodeLineageTag": "21cacfcc-9306-4140-af1c-292bb9e0a782",
           "size": {
-            "height": 200,
+            "height": 128,
             "width": 234
           },
-          "zIndex": 0
+          "zIndex": 3
         }
       ],
       "name": "All tables",

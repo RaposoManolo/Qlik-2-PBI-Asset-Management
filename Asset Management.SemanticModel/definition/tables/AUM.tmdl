@@ -32,6 +32,9 @@ table AUM
 		lineageTag: 04956099-fbc8-44cb-9bfc-76d611c4b458
 		summarizeBy: none
 		sourceColumn: Asset Class
+		sortByColumn: 'Asset Class Sort'
+
+		changedProperty = SortByColumn
 
 		annotation SummarizationSetBy = Automatic
 
@@ -193,6 +196,14 @@ table AUM
 
 		annotation SummarizationSetBy = Automatic
 
+	column 'Asset Class Sort'
+		dataType: string
+		lineageTag: 0acb8620-0cbe-4c5d-a95d-18e55bc05e14
+		summarizeBy: none
+		sourceColumn: Asset Class Sort
+
+		annotation SummarizationSetBy = Automatic
+
 	partition AUM = m
 		mode: import
 		source =
@@ -201,9 +212,10 @@ table AUM
 				    Sheet1_Sheet = Source{[Item="Sheet1",Kind="Sheet"]}[Data],
 				    #"Promoted Headers" = Table.PromoteHeaders(Sheet1_Sheet, [PromoteAllScalars=true]),
 				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"% of Fund", type number}, {"%Key", type text}, {"Account Name", type text}, {"Asset Class", type text}, {"Asset_EUR", type number}, {"Asset_GBP", type number}, {"Asset_USD", type number}, {"Business Type", type text}, {"Business Unit", type text}, {"Capability / Investment Style", type text}, {"Client Country", type text}, {"Client Region", type text}, {"Client Type", type text}, {"Fund Code - AUM", type text}, {"Fund Type", type text}, {"Gross fund val", type text}, {"Investment Intensity", type text}, {"Investment Region", type text}, {"Investor", type text}, {"Pooled Fund (if applicable)", type text}, {"Referral Source", type text}, {"Segregated / Pooled", type text}, {"Tax Status", type text}}),
-				    #"Replaced Errors" = Table.ReplaceErrorValues(#"Changed Type", {{"% of Fund", 0}})
+				    #"Replaced Errors" = Table.ReplaceErrorValues(#"Changed Type", {{"% of Fund", 0}}),
+				    #"Added Conditional Column" = Table.AddColumn(#"Replaced Errors", "Asset Class Sort", each if [Asset Class] = "Equity" then 0 else if [Asset Class] = "Fixed Income" then 1 else if [Asset Class] = "Alternatives" then 2 else if [Asset Class] = "Multi-Asset" then 3 else null)
 				in
-				    #"Replaced Errors"
+				    #"Added Conditional Column"
 
 	annotation PBI_NavigationStepName = Navigation
 

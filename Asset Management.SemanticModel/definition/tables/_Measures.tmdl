@@ -3,9 +3,9 @@ table _Measures
 
 	measure AUM_Total = ```
 			
-			VAR SelectedCurrency = SELECTEDVALUE('Currency'[Currency Abr Name])
-			RETURN 
-			    SWITCH(SelectedCurrency,
+			--VAR SelectedCurrency = [Current Currency]
+			--RETURN 
+			    SWITCH([Current Currency],
 			        "USD",  "$" & ROUND(SUM(AUM[Asset_USD])/1000000000, 2),
 			        "EUR", "€" &ROUND(SUM(AUM[Asset_EUR])/1000000000,2),
 			        "GBP", "£" & ROUND(SUM(AUM[Asset_GBP])/1000000000,2),
@@ -14,34 +14,76 @@ table _Measures
 			```
 		lineageTag: 493a0ccd-671f-45f1-b031-9eae29412fb5
 
-	measure '% Equity' =
+	measure '% Equity Of Holdings' = ```
 			
-			DIVIDE(
-			    CALCULATE(
-			        SUM(AUM[Asset_USD]),
-			         AUM[Asset Class] = "Equity"
-			    ),
 			    CALCULATE(
 			        SUM(AUM[Asset_USD]),
 			        ALL(AUM[Asset Class]),
 			        AUM[Asset Class]<>BLANK()
 			    )
-			)
+			```
 		lineageTag: 3bca7047-6fa9-43b9-bfbd-442c08bfd0e6
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
-	measure AUM_Total_Format =
+	measure 'Highest Asset Invested' =
 			
-			VAR SelectedCurrency = SELECTEDVALUE('Currency'[Currency Abr Name])
+			
+			VAR OriginalName = CALCULATE(MIN(AUM[Account Name]), AUM[Asset_USD] = MAX(AUM[Asset_USD]))
 			RETURN
-			    SWITCH(SelectedCurrency,
-			        "USD", "$#,##0.00",
-			        "EUR", "€#,##0.00",
-			        "GBP", "£#,##0.00",
-			        "$#,##0.00" --Default
+			    IF(
+			        LEN(OriginalName) > 30,
+			        LEFT(OriginalName, 30) & "...",
+			        OriginalName
 			    )
-		lineageTag: 1a85da52-d49d-4967-82a8-58a7b9c01cc7
+			& UNICHAR(10) &
+			SWITCH([Current Currency],
+			        "USD",  "$" & ROUND(MAX(AUM[Asset_USD])/1000000000, 2),
+			        "EUR", "€" &ROUND(MAX(AUM[Asset_EUR])/1000000000,2),
+			        "GBP", "£" & ROUND(MAX(AUM[Asset_GBP])/1000000000,2),
+			        ROUND(MAX(AUM[Asset_USD])/1000000000,2) --Default
+			    ) & "" & "bn"
+		lineageTag: 57543f96-80da-4cbd-b3e9-c13d7e00f876
+
+	measure 'Lowest Asset Invested' =
+			
+			VAR OriginalName = CALCULATE(MIN(AUM[Account Name]), AUM[Asset_USD] = Min(AUM[Asset_USD]))
+			RETURN
+			    IF(
+			        LEN(OriginalName) > 30,
+			        LEFT(OriginalName, 30) & "...",
+			        OriginalName
+			    )
+			& UNICHAR(10) &
+			
+			SWITCH([Current Currency],
+			        "USD",  "$" & ROUND(MIN(AUM[Asset_USD])/1000000, 2),
+			        "EUR", "€" &ROUND(MIN(AUM[Asset_EUR])/1000000,2),
+			        "GBP", "£" & ROUND(MIN(AUM[Asset_GBP])/1000000,2),
+			        ROUND(MIN(AUM[Asset_USD])/1000000,2) --Default
+			    ) & "" & "ml"
+		lineageTag: 360a097f-0ca4-48b3-ac79-76e051fb2d64
+
+	measure TestMeasure = LEN("AMP International Equity index Tracking Fund")
+		formatString: 0
+		lineageTag: 8b1dab05-0e32-4dae-b9d5-d8a7781a35f1
+
+	measure 'Current Currency' = SELECTEDVALUE('Currency'[Currency Abr Name])
+		lineageTag: c40d6f29-1be9-4f4a-bce7-d1afcf1f76aa
+
+	measure AUM_Total_Raw =
+			
+			--VAR CurrentCurr = [Current Currency]
+			--RETURN
+			    SWITCH(
+			        [Current Currency],
+			        "USD", ROUND(SUM(AUM[Asset_USD]) / 1000000000, 2),
+			        "EUR", ROUND(SUM(AUM[Asset_EUR]) / 1000000000, 2),
+			        "GBP", ROUND(SUM(AUM[Asset_GBP]) / 1000000000, 2),
+			        ROUND(SUM(AUM[Asset_USD]) / 1000000000, 2) -- Default to USD
+			    )
+		formatString: 0
+		lineageTag: 7b4e8f9f-dd32-43e8-a67f-846e04457300
 
 	column Column
 		formatString: 0

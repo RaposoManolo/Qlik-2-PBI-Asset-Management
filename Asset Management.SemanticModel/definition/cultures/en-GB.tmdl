@@ -1418,12 +1418,6 @@ cultureInfo en-GB
 			          }
 			        },
 			        {
-			          "currency": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "performance money": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -1441,26 +1435,6 @@ cultureInfo en-GB
 			              "Agent": "Thesaurus"
 			            },
 			            "Weight": 0.5
-			          }
-			        },
-			        {
-			          "money": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.491
-			          }
-			        },
-			        {
-			          "coinage": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.491
 			          }
 			        },
 			        {
@@ -1484,26 +1458,6 @@ cultureInfo en-GB
 			          }
 			        },
 			        {
-			          "exchange": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.476
-			          }
-			        },
-			        {
-			          "cash": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.476
-			          }
-			        },
-			        {
 			          "performance prevalence": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -1515,6 +1469,46 @@ cultureInfo en-GB
 			        },
 			        {
 			          "performance frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "performance popularity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "performance vogue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "performance circulation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "performance commonness": {
 			            "Type": "Noun",
 			            "State": "Suggested",
 			            "Source": {
@@ -3529,16 +3523,6 @@ cultureInfo en-GB
 			              "Agent": "Thesaurus"
 			            },
 			            "Weight": 0.491
-			          }
-			        },
-			        {
-			          "measure": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.476
 			          }
 			        },
 			        {
@@ -6049,205 +6033,1715 @@ cultureInfo en-GB
 			          }
 			        }
 			      ]
+			    },
+			    "aum.asset_class_sort": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "AUM",
+			          "ConceptualProperty": "Asset Class Sort"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "asset class sort": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "class sort": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "asset classification sort": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "asset category sort": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "asset genre sort": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "classification sort": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "category sort": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "genre sort": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "asset course sort": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "asset grade sort": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "asset lecture sort": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "asset lesson sort": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_measure": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "_ degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "_ quantity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "_ quota": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "_ extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "_ amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "_ portion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "_ ration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "_ size": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.column": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "Column"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "column": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "pilaster": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pillar": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "post": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "support": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "stake": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "pole": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "buttress": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "underpinning": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "contribution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.AUM_total": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "AUM_Total"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "AUM total": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "AUM_Total": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "aum aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "aum overall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "Value": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.equity_of_holdings": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "% Equity Of Holdings"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% equity of holdings": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage equity of holding": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "pct equity of holding": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "% evenhandedness of holding": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "% fairness of holding": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "% impartiality of holding": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "% justness of holding": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "% parity of holding": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "% justice of holding": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.highest_asset_invested": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "Highest Asset Invested"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "highest asset invested": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "highest strength invested": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "highest skill invested": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "highest talent invested": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "highest ability invested": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "highest qualification invested": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "highest endowment invested": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "highest advantage invested": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "highest benefit invested": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "highest plus invested": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "highest quality invested": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "currency": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Currency"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "currency": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "money": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "coinage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "exchange": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "cash": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "prevalence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "popularity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "vogue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "circulation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "commonness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "currency.currency_abr_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Currency",
+			          "ConceptualProperty": "Currency Abr Name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "currency abr name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "currency abr nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "currency abr title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "currency abr label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "currency abr tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "currency.curency_symbol": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Currency",
+			          "ConceptualProperty": "Curency Symbol"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "curency symbol": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "curency representation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "curency icon": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "curency pictogram": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "curency sign": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "curency character": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "curency figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "curency mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "curency emblem": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "curency indication": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "curency logo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.lowest_asset_invested": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "Lowest Asset Invested"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "lowest asset invested": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "lowest strength invested": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "lowest skill invested": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "lowest talent invested": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "lowest ability invested": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "lowest qualification invested": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "lowest endowment invested": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "lowest advantage invested": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "lowest benefit invested": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "lowest plus invested": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "lowest quality invested": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.test_measure": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "TestMeasure"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "test measure": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TestMeasure": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "measure": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "test degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "test quantity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "test quota": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "test extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "quota": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "test amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "test portion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "test ration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.current_currency": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "Current Currency"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "current currency": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "latest currency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "contemporary currency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "present currency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "current money": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "current coinage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "current exchange": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "current cash": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "current prevalence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "current frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "current popularity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        }
+			      ]
 			    }
 			  },
 			  "Relationships": {
-			    "performance_is_named_performance_id": {
+			    "currency_has_curency_symbol": {
 			      "Binding": {
-			        "ConceptualEntity": "Performance"
+			        "ConceptualEntity": "Currency"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "performance": {
+			        "currency": {
 			          "Target": {
-			            "Entity": "performance"
+			            "Entity": "currency"
 			          }
 			        },
-			        "performance.performance_id": {
+			        "currency.curency_symbol": {
 			          "Target": {
-			            "Entity": "performance.performance_id"
+			            "Entity": "currency.curency_symbol"
 			          }
 			        }
 			      },
 			      "Phrasings": [
 			        {
-			          "Name": {
-			            "Subject": {
-			              "Role": "performance"
-			            },
-			            "Name": {
-			              "Role": "performance.performance_id"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "performance_ids_are_names_IDs_of_performances"
-			        },
-			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "performance"
+			              "Role": "currency"
 			            },
 			            "Object": {
-			              "Role": "performance.performance_id"
+			              "Role": "currency.curency_symbol"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "performances_have_performance_ids"
+			          "ID": "currencies_have_curency_symbols"
 			        }
 			      ]
 			    },
-			    "performance_fund_manager_manage_performance": {
+			    "currency_has_currency_abr_name": {
 			      "Binding": {
-			        "ConceptualEntity": "Performance"
+			        "ConceptualEntity": "Currency"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "performance.fund_manager": {
+			        "currency": {
 			          "Target": {
-			            "Entity": "performance.fund_manager"
+			            "Entity": "currency"
 			          }
 			        },
-			        "performance": {
+			        "currency.currency_abr_name": {
 			          "Target": {
-			            "Entity": "performance"
+			            "Entity": "currency.currency_abr_name"
 			          }
 			        }
 			      },
 			      "Phrasings": [
 			        {
-			          "Verb": {
-			            "Subject": {
-			              "Role": "performance.fund_manager"
-			            },
-			            "Verbs": [
-			              {
-			                "manage": {
-			                  "State": "Generated"
-			                }
-			              }
-			            ],
-			            "Object": {
-			              "Role": "performance"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.75,
-			          "ID": "fund_managers_manage_performances"
-			        },
-			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "performance.fund_manager"
+			              "Role": "currency"
 			            },
 			            "Object": {
-			              "Role": "performance"
+			              "Role": "currency.currency_abr_name"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "fund_managers_have_performances"
-			        },
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "performance"
-			            },
-			            "Object": {
-			              "Role": "performance.fund_manager"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "performances_have_fund_managers"
+			          "ID": "currencies_have_currency_abr_names"
 			        }
 			      ]
 			    },
-			    "performance_original_fund_manager_manage_performance": {
+			    "currency_has_entity__measure_highest_asset_invested": {
 			      "Binding": {
-			        "ConceptualEntity": "Performance"
+			        "ConceptualEntity": "Currency"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "performance.original_fund_manager": {
+			        "currency": {
 			          "Target": {
-			            "Entity": "performance.original_fund_manager"
+			            "Entity": "currency"
 			          }
 			        },
-			        "performance": {
+			        "entity__measure.highest_asset_invested": {
 			          "Target": {
-			            "Entity": "performance"
+			            "Entity": "entity__measure.highest_asset_invested"
 			          }
 			        }
 			      },
 			      "Phrasings": [
 			        {
-			          "Verb": {
-			            "Subject": {
-			              "Role": "performance.original_fund_manager"
-			            },
-			            "Verbs": [
-			              {
-			                "manage": {
-			                  "State": "Generated"
-			                }
-			              }
-			            ],
-			            "Object": {
-			              "Role": "performance"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.75,
-			          "ID": "original_fund_managers_manage_performances"
-			        },
-			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "performance.original_fund_manager"
+			              "Role": "currency"
 			            },
 			            "Object": {
-			              "Role": "performance"
+			              "Role": "entity__measure.highest_asset_invested"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "original_fund_managers_have_performances"
-			        },
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "performance"
-			            },
-			            "Object": {
-			              "Role": "performance.original_fund_manager"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "performances_have_original_fund_managers"
+			          "ID": "currencies_have_highest_asset_invested"
 			        }
 			      ]
 			    },
-			    "aum_investor_invest_aum": {
+			    "aum_has_entity__measure_highest_asset_invested": {
 			      "Binding": {
 			        "ConceptualEntity": "AUM"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "aum.investor": {
-			          "Target": {
-			            "Entity": "aum.investor"
-			          }
-			        },
 			        "aum": {
 			          "Target": {
 			            "Entity": "aum"
 			          }
+			        },
+			        "entity__measure.highest_asset_invested": {
+			          "Target": {
+			            "Entity": "entity__measure.highest_asset_invested"
+			          }
 			        }
 			      },
 			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "aum"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.highest_asset_invested"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "aum_have_highest_asset_invested"
+			        }
+			      ]
+			    },
+			    "aum_has_entity__measure_equity_of_holdings": {
+			      "Binding": {
+			        "ConceptualEntity": "AUM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "aum": {
+			          "Target": {
+			            "Entity": "aum"
+			          }
+			        },
+			        "entity__measure.equity_of_holdings": {
+			          "Target": {
+			            "Entity": "entity__measure.equity_of_holdings"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "aum"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.equity_of_holdings"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "aum_have__equity_of_holdings"
+			        }
+			      ]
+			    },
+			    "currency_has_entity__measure_AUM_total": {
+			      "Binding": {
+			        "ConceptualEntity": "Currency"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "currency": {
+			          "Target": {
+			            "Entity": "currency"
+			          }
+			        },
+			        "entity__measure.AUM_total": {
+			          "Target": {
+			            "Entity": "entity__measure.AUM_total"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "currency"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.AUM_total"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "currencies_have_AUM_total"
+			        }
+			      ]
+			    },
+			    "aum_has_entity__measure_AUM_total": {
+			      "Binding": {
+			        "ConceptualEntity": "AUM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "aum": {
+			          "Target": {
+			            "Entity": "aum"
+			          }
+			        },
+			        "entity__measure.AUM_total": {
+			          "Target": {
+			            "Entity": "entity__measure.AUM_total"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "aum"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.AUM_total"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "aum_have_AUM_total"
+			        }
+			      ]
+			    },
+			    "entity__measure_has_column": {
+			      "Binding": {
+			        "ConceptualEntity": "_Measures"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity__measure": {
+			          "Target": {
+			            "Entity": "entity__measure"
+			          }
+			        },
+			        "entity__measure.column": {
+			          "Target": {
+			            "Entity": "entity__measure.column"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity__measure"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.column"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing_measures_have_columns"
+			        }
+			      ]
+			    },
+			    "aum_has_asset_class_sort": {
+			      "Binding": {
+			        "ConceptualEntity": "AUM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "aum": {
+			          "Target": {
+			            "Entity": "aum"
+			          }
+			        },
+			        "aum.asset_class_sort": {
+			          "Target": {
+			            "Entity": "aum.asset_class_sort"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "aum"
+			            },
+			            "Object": {
+			              "Role": "aum.asset_class_sort"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "aum_have_asset_class_sorts"
+			        }
+			      ]
+			    },
+			    "aum_has_tax_status": {
+			      "Binding": {
+			        "ConceptualEntity": "AUM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "aum": {
+			          "Target": {
+			            "Entity": "aum"
+			          }
+			        },
+			        "aum.tax_status": {
+			          "Target": {
+			            "Entity": "aum.tax_status"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "aum"
+			            },
+			            "Object": {
+			              "Role": "aum.tax_status"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "aum_have_tax_statuses"
+			        }
+			      ]
+			    },
+			    "aum_has_segregated___pooled": {
+			      "Binding": {
+			        "ConceptualEntity": "AUM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "aum": {
+			          "Target": {
+			            "Entity": "aum"
+			          }
+			        },
+			        "aum.segregated___pooled": {
+			          "Target": {
+			            "Entity": "aum.segregated___pooled"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "aum"
+			            },
+			            "Object": {
+			              "Role": "aum.segregated___pooled"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "aum_have_segregated___pooled"
+			        }
+			      ]
+			    },
+			    "aum_has_referral_source": {
+			      "Binding": {
+			        "ConceptualEntity": "AUM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "aum": {
+			          "Target": {
+			            "Entity": "aum"
+			          }
+			        },
+			        "aum.referral_source": {
+			          "Target": {
+			            "Entity": "aum.referral_source"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "aum"
+			            },
+			            "Object": {
+			              "Role": "aum.referral_source"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "aum_have_referral_sources"
+			        }
+			      ]
+			    },
+			    "aum_has_pooled_fund_if_applicable": {
+			      "Binding": {
+			        "ConceptualEntity": "AUM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "aum": {
+			          "Target": {
+			            "Entity": "aum"
+			          }
+			        },
+			        "aum.pooled_fund_if_applicable": {
+			          "Target": {
+			            "Entity": "aum.pooled_fund_if_applicable"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "aum"
+			            },
+			            "Object": {
+			              "Role": "aum.pooled_fund_if_applicable"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "aum_have_pooled_fund_if_applicable"
+			        }
+			      ]
+			    },
+			    "aum_has_investor": {
+			      "Binding": {
+			        "ConceptualEntity": "AUM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "aum": {
+			          "Target": {
+			            "Entity": "aum"
+			          }
+			        },
+			        "aum.investor": {
+			          "Target": {
+			            "Entity": "aum.investor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "aum"
+			            },
+			            "Object": {
+			              "Role": "aum.investor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "aum_have_investors"
+			        },
 			        {
 			          "Verb": {
 			            "Subject": {
@@ -6280,23 +7774,10 @@ cultureInfo en-GB
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "investors_have_aum"
-			        },
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "aum"
-			            },
-			            "Object": {
-			              "Role": "aum.investor"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "aum_have_investors"
 			        }
 			      ]
 			    },
-			    "aum_in_client_country": {
+			    "aum_has_investment_region": {
 			      "Binding": {
 			        "ConceptualEntity": "AUM"
 			      },
@@ -6307,41 +7788,194 @@ cultureInfo en-GB
 			            "Entity": "aum"
 			          }
 			        },
-			        "aum.client_country": {
+			        "aum.investment_region": {
 			          "Target": {
-			            "Entity": "aum.client_country"
+			            "Entity": "aum.investment_region"
 			          }
-			        }
-			      },
-			      "SemanticSlots": {
-			        "Where": {
-			          "Role": "aum.client_country"
 			        }
 			      },
 			      "Phrasings": [
 			        {
-			          "Preposition": {
+			          "Attribute": {
 			            "Subject": {
 			              "Role": "aum"
 			            },
-			            "Prepositions": [
-			              {
-			                "in": {
-			                  "State": "Generated"
-			                }
-			              }
-			            ],
 			            "Object": {
-			              "Role": "aum.client_country"
+			              "Role": "aum.investment_region"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "aum_are_in_client_countries"
+			          "ID": "aum_have_investment_regions"
 			        }
 			      ]
 			    },
-			    "aum_in_client_region": {
+			    "aum_has_investment_intensity": {
+			      "Binding": {
+			        "ConceptualEntity": "AUM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "aum": {
+			          "Target": {
+			            "Entity": "aum"
+			          }
+			        },
+			        "aum.investment_intensity": {
+			          "Target": {
+			            "Entity": "aum.investment_intensity"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "aum"
+			            },
+			            "Object": {
+			              "Role": "aum.investment_intensity"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "aum_have_investment_intensities"
+			        }
+			      ]
+			    },
+			    "aum_has_gross_fund_val": {
+			      "Binding": {
+			        "ConceptualEntity": "AUM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "aum": {
+			          "Target": {
+			            "Entity": "aum"
+			          }
+			        },
+			        "aum.gross_fund_val": {
+			          "Target": {
+			            "Entity": "aum.gross_fund_val"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "aum"
+			            },
+			            "Object": {
+			              "Role": "aum.gross_fund_val"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "aum_have_gross_fund_val"
+			        }
+			      ]
+			    },
+			    "aum_has_fund_type": {
+			      "Binding": {
+			        "ConceptualEntity": "AUM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "aum": {
+			          "Target": {
+			            "Entity": "aum"
+			          }
+			        },
+			        "aum.fund_type": {
+			          "Target": {
+			            "Entity": "aum.fund_type"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "aum"
+			            },
+			            "Object": {
+			              "Role": "aum.fund_type"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "aum_have_fund_types"
+			        }
+			      ]
+			    },
+			    "aum_has_fund_code__AUM": {
+			      "Binding": {
+			        "ConceptualEntity": "AUM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "aum": {
+			          "Target": {
+			            "Entity": "aum"
+			          }
+			        },
+			        "aum.fund_code__AUM": {
+			          "Target": {
+			            "Entity": "aum.fund_code__AUM"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "aum"
+			            },
+			            "Object": {
+			              "Role": "aum.fund_code__AUM"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "aum_have_fund_code__AUM"
+			        }
+			      ]
+			    },
+			    "aum_has_client_type": {
+			      "Binding": {
+			        "ConceptualEntity": "AUM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "aum": {
+			          "Target": {
+			            "Entity": "aum"
+			          }
+			        },
+			        "aum.client_type": {
+			          "Target": {
+			            "Entity": "aum.client_type"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "aum"
+			            },
+			            "Object": {
+			              "Role": "aum.client_type"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "aum_have_client_types"
+			        }
+			      ]
+			    },
+			    "aum_has_client_region": {
 			      "Binding": {
 			        "ConceptualEntity": "AUM"
 			      },
@@ -6358,31 +7992,1946 @@ cultureInfo en-GB
 			          }
 			        }
 			      },
-			      "SemanticSlots": {
-			        "Where": {
-			          "Role": "aum.client_region"
-			        }
-			      },
 			      "Phrasings": [
 			        {
-			          "Preposition": {
+			          "Attribute": {
 			            "Subject": {
 			              "Role": "aum"
 			            },
-			            "Prepositions": [
-			              {
-			                "in": {
-			                  "State": "Generated"
-			                }
-			              }
-			            ],
 			            "Object": {
 			              "Role": "aum.client_region"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "aum_are_in_client_regions"
+			          "ID": "aum_have_client_regions"
+			        }
+			      ]
+			    },
+			    "aum_has_client_country": {
+			      "Binding": {
+			        "ConceptualEntity": "AUM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "aum": {
+			          "Target": {
+			            "Entity": "aum"
+			          }
+			        },
+			        "aum.client_country": {
+			          "Target": {
+			            "Entity": "aum.client_country"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "aum"
+			            },
+			            "Object": {
+			              "Role": "aum.client_country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "aum_have_client_countries"
+			        }
+			      ]
+			    },
+			    "aum_has_capability___investment_style": {
+			      "Binding": {
+			        "ConceptualEntity": "AUM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "aum": {
+			          "Target": {
+			            "Entity": "aum"
+			          }
+			        },
+			        "aum.capability___investment_style": {
+			          "Target": {
+			            "Entity": "aum.capability___investment_style"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "aum"
+			            },
+			            "Object": {
+			              "Role": "aum.capability___investment_style"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "aum_have_capability___investment_styles"
+			        }
+			      ]
+			    },
+			    "aum_has_business_unit": {
+			      "Binding": {
+			        "ConceptualEntity": "AUM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "aum": {
+			          "Target": {
+			            "Entity": "aum"
+			          }
+			        },
+			        "aum.business_unit": {
+			          "Target": {
+			            "Entity": "aum.business_unit"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "aum"
+			            },
+			            "Object": {
+			              "Role": "aum.business_unit"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "aum_have_business_units"
+			        }
+			      ]
+			    },
+			    "aum_has_business_type": {
+			      "Binding": {
+			        "ConceptualEntity": "AUM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "aum": {
+			          "Target": {
+			            "Entity": "aum"
+			          }
+			        },
+			        "aum.business_type": {
+			          "Target": {
+			            "Entity": "aum.business_type"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "aum"
+			            },
+			            "Object": {
+			              "Role": "aum.business_type"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "aum_have_business_types"
+			        }
+			      ]
+			    },
+			    "aum_has_asset_USD": {
+			      "Binding": {
+			        "ConceptualEntity": "AUM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "aum": {
+			          "Target": {
+			            "Entity": "aum"
+			          }
+			        },
+			        "aum.asset_USD": {
+			          "Target": {
+			            "Entity": "aum.asset_USD"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "aum"
+			            },
+			            "Object": {
+			              "Role": "aum.asset_USD"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "aum_have_asset_USD"
+			        }
+			      ]
+			    },
+			    "aum_has_asset_GBP": {
+			      "Binding": {
+			        "ConceptualEntity": "AUM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "aum": {
+			          "Target": {
+			            "Entity": "aum"
+			          }
+			        },
+			        "aum.asset_GBP": {
+			          "Target": {
+			            "Entity": "aum.asset_GBP"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "aum"
+			            },
+			            "Object": {
+			              "Role": "aum.asset_GBP"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "aum_have_asset_GBPs"
+			        }
+			      ]
+			    },
+			    "aum_has_asset_EUR": {
+			      "Binding": {
+			        "ConceptualEntity": "AUM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "aum": {
+			          "Target": {
+			            "Entity": "aum"
+			          }
+			        },
+			        "aum.asset_EUR": {
+			          "Target": {
+			            "Entity": "aum.asset_EUR"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "aum"
+			            },
+			            "Object": {
+			              "Role": "aum.asset_EUR"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "aum_have_asset_EURs"
+			        }
+			      ]
+			    },
+			    "aum_has_asset_class": {
+			      "Binding": {
+			        "ConceptualEntity": "AUM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "aum": {
+			          "Target": {
+			            "Entity": "aum"
+			          }
+			        },
+			        "aum.asset_class": {
+			          "Target": {
+			            "Entity": "aum.asset_class"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "aum"
+			            },
+			            "Object": {
+			              "Role": "aum.asset_class"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "aum_have_asset_classes"
+			        }
+			      ]
+			    },
+			    "aum_has_account_name": {
+			      "Binding": {
+			        "ConceptualEntity": "AUM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "aum": {
+			          "Target": {
+			            "Entity": "aum"
+			          }
+			        },
+			        "aum.account_name": {
+			          "Target": {
+			            "Entity": "aum.account_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "aum"
+			            },
+			            "Object": {
+			              "Role": "aum.account_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "aum_have_account_names"
+			        }
+			      ]
+			    },
+			    "aum_has_key": {
+			      "Binding": {
+			        "ConceptualEntity": "AUM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "aum": {
+			          "Target": {
+			            "Entity": "aum"
+			          }
+			        },
+			        "aum.key": {
+			          "Target": {
+			            "Entity": "aum.key"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "aum"
+			            },
+			            "Object": {
+			              "Role": "aum.key"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "aum_have_keys"
+			        }
+			      ]
+			    },
+			    "aum_has_of_fund": {
+			      "Binding": {
+			        "ConceptualEntity": "AUM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "aum": {
+			          "Target": {
+			            "Entity": "aum"
+			          }
+			        },
+			        "aum.of_fund": {
+			          "Target": {
+			            "Entity": "aum.of_fund"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "aum"
+			            },
+			            "Object": {
+			              "Role": "aum.of_fund"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "aum_have__of_fund"
+			        }
+			      ]
+			    },
+			    "position_has_value": {
+			      "Binding": {
+			        "ConceptualEntity": "Positions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "position": {
+			          "Target": {
+			            "Entity": "position"
+			          }
+			        },
+			        "position.value": {
+			          "Target": {
+			            "Entity": "position.value"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "position"
+			            },
+			            "Object": {
+			              "Role": "position.value"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "positions_have_values"
+			        }
+			      ]
+			    },
+			    "position_has_strike_price": {
+			      "Binding": {
+			        "ConceptualEntity": "Positions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "position": {
+			          "Target": {
+			            "Entity": "position"
+			          }
+			        },
+			        "position.strike_price": {
+			          "Target": {
+			            "Entity": "position.strike_price"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "position"
+			            },
+			            "Object": {
+			              "Role": "position.strike_price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "positions_have_strike_prices"
+			        }
+			      ]
+			    },
+			    "position_has_shares_outstanding": {
+			      "Binding": {
+			        "ConceptualEntity": "Positions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "position": {
+			          "Target": {
+			            "Entity": "position"
+			          }
+			        },
+			        "position.shares_outstanding": {
+			          "Target": {
+			            "Entity": "position.shares_outstanding"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "position"
+			            },
+			            "Object": {
+			              "Role": "position.shares_outstanding"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "positions_have_shares_outstanding"
+			        }
+			      ]
+			    },
+			    "position_has_quantity": {
+			      "Binding": {
+			        "ConceptualEntity": "Positions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "position": {
+			          "Target": {
+			            "Entity": "position"
+			          }
+			        },
+			        "position.quantity": {
+			          "Target": {
+			            "Entity": "position.quantity"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "position"
+			            },
+			            "Object": {
+			              "Role": "position.quantity"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "positions_have_quantities"
+			        }
+			      ]
+			    },
+			    "position_has_position_value_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Positions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "position": {
+			          "Target": {
+			            "Entity": "position"
+			          }
+			        },
+			        "position.position_value_date": {
+			          "Target": {
+			            "Entity": "position.position_value_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "position"
+			            },
+			            "Object": {
+			              "Role": "position.position_value_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "positions_have_position_value_dates"
+			        }
+			      ]
+			    },
+			    "position_has_position_created_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Positions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "position": {
+			          "Target": {
+			            "Entity": "position"
+			          }
+			        },
+			        "position.position_created_date": {
+			          "Target": {
+			            "Entity": "position.position_created_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "position"
+			            },
+			            "Object": {
+			              "Role": "position.position_created_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "positions_have_position_created_dates"
+			        }
+			      ]
+			    },
+			    "position_has_open_price": {
+			      "Binding": {
+			        "ConceptualEntity": "Positions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "position": {
+			          "Target": {
+			            "Entity": "position"
+			          }
+			        },
+			        "position.open_price": {
+			          "Target": {
+			            "Entity": "position.open_price"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "position"
+			            },
+			            "Object": {
+			              "Role": "position.open_price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "positions_have_open_prices"
+			        }
+			      ]
+			    },
+			    "position_has_mkt": {
+			      "Binding": {
+			        "ConceptualEntity": "Positions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "position": {
+			          "Target": {
+			            "Entity": "position"
+			          }
+			        },
+			        "position.mkt": {
+			          "Target": {
+			            "Entity": "position.mkt"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "position"
+			            },
+			            "Object": {
+			              "Role": "position.mkt"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "positions_have_mkts"
+			        }
+			      ]
+			    },
+			    "position_has_last_exec_price": {
+			      "Binding": {
+			        "ConceptualEntity": "Positions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "position": {
+			          "Target": {
+			            "Entity": "position"
+			          }
+			        },
+			        "position.last_exec_price": {
+			          "Target": {
+			            "Entity": "position.last_exec_price"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "position"
+			            },
+			            "Object": {
+			              "Role": "position.last_exec_price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "positions_have_last_exec_prices"
+			        }
+			      ]
+			    },
+			    "position_has_fund_code__position_org": {
+			      "Binding": {
+			        "ConceptualEntity": "Positions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "position": {
+			          "Target": {
+			            "Entity": "position"
+			          }
+			        },
+			        "position.fund_code__position_org": {
+			          "Target": {
+			            "Entity": "position.fund_code__position_org"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "position"
+			            },
+			            "Object": {
+			              "Role": "position.fund_code__position_org"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "positions_have_fund_code__position_org"
+			        }
+			      ]
+			    },
+			    "position_has_fund_code__position": {
+			      "Binding": {
+			        "ConceptualEntity": "Positions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "position": {
+			          "Target": {
+			            "Entity": "position"
+			          }
+			        },
+			        "position.fund_code__position": {
+			          "Target": {
+			            "Entity": "position.fund_code__position"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "position"
+			            },
+			            "Object": {
+			              "Role": "position.fund_code__position"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "positions_have_fund_code__positions"
+			        }
+			      ]
+			    },
+			    "position_has_FTSE_sector": {
+			      "Binding": {
+			        "ConceptualEntity": "Positions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "position": {
+			          "Target": {
+			            "Entity": "position"
+			          }
+			        },
+			        "position.FTSE_sector": {
+			          "Target": {
+			            "Entity": "position.FTSE_sector"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "position"
+			            },
+			            "Object": {
+			              "Role": "position.FTSE_sector"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "positions_have_FTSE_sectors"
+			        }
+			      ]
+			    },
+			    "position_has_FTSE_industry": {
+			      "Binding": {
+			        "ConceptualEntity": "Positions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "position": {
+			          "Target": {
+			            "Entity": "position"
+			          }
+			        },
+			        "position.FTSE_industry": {
+			          "Target": {
+			            "Entity": "position.FTSE_industry"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "position"
+			            },
+			            "Object": {
+			              "Role": "position.FTSE_industry"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "positions_have_FTSE_industries"
+			        }
+			      ]
+			    },
+			    "position_has_desk": {
+			      "Binding": {
+			        "ConceptualEntity": "Positions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "position": {
+			          "Target": {
+			            "Entity": "position"
+			          }
+			        },
+			        "position.desk": {
+			          "Target": {
+			            "Entity": "position.desk"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "position"
+			            },
+			            "Object": {
+			              "Role": "position.desk"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "positions_have_desks"
+			        }
+			      ]
+			    },
+			    "position_has_cusip": {
+			      "Binding": {
+			        "ConceptualEntity": "Positions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "position": {
+			          "Target": {
+			            "Entity": "position"
+			          }
+			        },
+			        "position.cusip": {
+			          "Target": {
+			            "Entity": "position.cusip"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "position"
+			            },
+			            "Object": {
+			              "Role": "position.cusip"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "positions_have_cusips"
+			        }
+			      ]
+			    },
+			    "position_has_curr": {
+			      "Binding": {
+			        "ConceptualEntity": "Positions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "position": {
+			          "Target": {
+			            "Entity": "position"
+			          }
+			        },
+			        "position.curr": {
+			          "Target": {
+			            "Entity": "position.curr"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "position"
+			            },
+			            "Object": {
+			              "Role": "position.curr"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "positions_have_currs"
+			        }
+			      ]
+			    },
+			    "position_has_cost": {
+			      "Binding": {
+			        "ConceptualEntity": "Positions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "position": {
+			          "Target": {
+			            "Entity": "position"
+			          }
+			        },
+			        "position.cost": {
+			          "Target": {
+			            "Entity": "position.cost"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "position"
+			            },
+			            "Object": {
+			              "Role": "position.cost"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "positions_have_costs"
+			        }
+			      ]
+			    },
+			    "position_has_closing_price": {
+			      "Binding": {
+			        "ConceptualEntity": "Positions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "position": {
+			          "Target": {
+			            "Entity": "position"
+			          }
+			        },
+			        "position.closing_price": {
+			          "Target": {
+			            "Entity": "position.closing_price"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "position"
+			            },
+			            "Object": {
+			              "Role": "position.closing_price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "positions_have_closing_prices"
+			        }
+			      ]
+			    },
+			    "position_has_avg_cost": {
+			      "Binding": {
+			        "ConceptualEntity": "Positions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "position": {
+			          "Target": {
+			            "Entity": "position"
+			          }
+			        },
+			        "position.avg_cost": {
+			          "Target": {
+			            "Entity": "position.avg_cost"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "position"
+			            },
+			            "Object": {
+			              "Role": "position.avg_cost"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "positions_have_avg_costs"
+			        }
+			      ]
+			    },
+			    "position_has_key": {
+			      "Binding": {
+			        "ConceptualEntity": "Positions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "position": {
+			          "Target": {
+			            "Entity": "position"
+			          }
+			        },
+			        "position.key": {
+			          "Target": {
+			            "Entity": "position.key"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "position"
+			            },
+			            "Object": {
+			              "Role": "position.key"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "positions_have_keys"
+			        }
+			      ]
+			    },
+			    "performance_has_profile_no": {
+			      "Binding": {
+			        "ConceptualEntity": "Performance"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "performance": {
+			          "Target": {
+			            "Entity": "performance"
+			          }
+			        },
+			        "performance.profile_no": {
+			          "Target": {
+			            "Entity": "performance.profile_no"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "performance"
+			            },
+			            "Object": {
+			              "Role": "performance.profile_no"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "performances_have_profile_noes"
+			        }
+			      ]
+			    },
+			    "performance_has_profile_summary": {
+			      "Binding": {
+			        "ConceptualEntity": "Performance"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "performance": {
+			          "Target": {
+			            "Entity": "performance"
+			          }
+			        },
+			        "performance.profile_summary": {
+			          "Target": {
+			            "Entity": "performance.profile_summary"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "performance"
+			            },
+			            "Object": {
+			              "Role": "performance.profile_summary"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "performances_have_profile_summaries"
+			        }
+			      ]
+			    },
+			    "performance_has_product_type": {
+			      "Binding": {
+			        "ConceptualEntity": "Performance"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "performance": {
+			          "Target": {
+			            "Entity": "performance"
+			          }
+			        },
+			        "performance.product_type": {
+			          "Target": {
+			            "Entity": "performance.product_type"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "performance"
+			            },
+			            "Object": {
+			              "Role": "performance.product_type"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "performances_have_product_types"
+			        }
+			      ]
+			    },
+			    "performance_has_performance_id": {
+			      "Binding": {
+			        "ConceptualEntity": "Performance"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "performance": {
+			          "Target": {
+			            "Entity": "performance"
+			          }
+			        },
+			        "performance.performance_id": {
+			          "Target": {
+			            "Entity": "performance.performance_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "performance"
+			            },
+			            "Object": {
+			              "Role": "performance.performance_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "performances_have_performance_ids"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "performance"
+			            },
+			            "Name": {
+			              "Role": "performance.performance_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "performance_ids_are_names_IDs_of_performances"
+			        }
+			      ]
+			    },
+			    "performance_has_performance_symbol": {
+			      "Binding": {
+			        "ConceptualEntity": "Performance"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "performance": {
+			          "Target": {
+			            "Entity": "performance"
+			          }
+			        },
+			        "performance.performance_symbol": {
+			          "Target": {
+			            "Entity": "performance.performance_symbol"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "performance"
+			            },
+			            "Object": {
+			              "Role": "performance.performance_symbol"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "performances_have_performance_symbols"
+			        }
+			      ]
+			    },
+			    "performance_has_performance_desk": {
+			      "Binding": {
+			        "ConceptualEntity": "Performance"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "performance": {
+			          "Target": {
+			            "Entity": "performance"
+			          }
+			        },
+			        "performance.performance_desk": {
+			          "Target": {
+			            "Entity": "performance.performance_desk"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "performance"
+			            },
+			            "Object": {
+			              "Role": "performance.performance_desk"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "performances_have_performance_desks"
+			        }
+			      ]
+			    },
+			    "performance_has_performance_currency": {
+			      "Binding": {
+			        "ConceptualEntity": "Performance"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "performance": {
+			          "Target": {
+			            "Entity": "performance"
+			          }
+			        },
+			        "performance.performance_currency": {
+			          "Target": {
+			            "Entity": "performance.performance_currency"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "performance"
+			            },
+			            "Object": {
+			              "Role": "performance.performance_currency"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "performances_have_performance_currencies"
+			        }
+			      ]
+			    },
+			    "performance_has_original_fund_name": {
+			      "Binding": {
+			        "ConceptualEntity": "Performance"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "performance": {
+			          "Target": {
+			            "Entity": "performance"
+			          }
+			        },
+			        "performance.original_fund_name": {
+			          "Target": {
+			            "Entity": "performance.original_fund_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "performance"
+			            },
+			            "Object": {
+			              "Role": "performance.original_fund_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "performances_have_original_fund_names"
+			        }
+			      ]
+			    },
+			    "performance_has_original_fund_manager": {
+			      "Binding": {
+			        "ConceptualEntity": "Performance"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "performance": {
+			          "Target": {
+			            "Entity": "performance"
+			          }
+			        },
+			        "performance.original_fund_manager": {
+			          "Target": {
+			            "Entity": "performance.original_fund_manager"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "performance"
+			            },
+			            "Object": {
+			              "Role": "performance.original_fund_manager"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "performances_have_original_fund_managers"
+			        },
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "performance.original_fund_manager"
+			            },
+			            "Verbs": [
+			              {
+			                "manage": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "performance"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.75,
+			          "ID": "original_fund_managers_manage_performances"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "performance.original_fund_manager"
+			            },
+			            "Object": {
+			              "Role": "performance"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "original_fund_managers_have_performances"
+			        }
+			      ]
+			    },
+			    "performance_has_measure_1_YTD": {
+			      "Binding": {
+			        "ConceptualEntity": "Performance"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "performance": {
+			          "Target": {
+			            "Entity": "performance"
+			          }
+			        },
+			        "performance.measure_1_YTD": {
+			          "Target": {
+			            "Entity": "performance.measure_1_YTD"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "performance"
+			            },
+			            "Object": {
+			              "Role": "performance.measure_1_YTD"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "performances_have_measure_1_YTD"
+			        }
+			      ]
+			    },
+			    "performance_has_measure_1_5_yrs_ann": {
+			      "Binding": {
+			        "ConceptualEntity": "Performance"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "performance": {
+			          "Target": {
+			            "Entity": "performance"
+			          }
+			        },
+			        "performance.measure_1_5_yrs_ann": {
+			          "Target": {
+			            "Entity": "performance.measure_1_5_yrs_ann"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "performance"
+			            },
+			            "Object": {
+			              "Role": "performance.measure_1_5_yrs_ann"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "performances_have_measure_1_5_yrs_ann"
+			        }
+			      ]
+			    },
+			    "performance_has_measure_1_3_yrs_ann": {
+			      "Binding": {
+			        "ConceptualEntity": "Performance"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "performance": {
+			          "Target": {
+			            "Entity": "performance"
+			          }
+			        },
+			        "performance.measure_1_3_yrs_ann": {
+			          "Target": {
+			            "Entity": "performance.measure_1_3_yrs_ann"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "performance"
+			            },
+			            "Object": {
+			              "Role": "performance.measure_1_3_yrs_ann"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "performances_have_measure_1_3_yrs_ann"
+			        }
+			      ]
+			    },
+			    "performance_has_measure_1_3_month": {
+			      "Binding": {
+			        "ConceptualEntity": "Performance"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "performance": {
+			          "Target": {
+			            "Entity": "performance"
+			          }
+			        },
+			        "performance.measure_1_3_month": {
+			          "Target": {
+			            "Entity": "performance.measure_1_3_month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "performance"
+			            },
+			            "Object": {
+			              "Role": "performance.measure_1_3_month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "performances_have_measure_1_3_months"
+			        }
+			      ]
+			    },
+			    "performance_has_measure_1_1_yr": {
+			      "Binding": {
+			        "ConceptualEntity": "Performance"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "performance": {
+			          "Target": {
+			            "Entity": "performance"
+			          }
+			        },
+			        "performance.measure_1_1_yr": {
+			          "Target": {
+			            "Entity": "performance.measure_1_1_yr"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "performance"
+			            },
+			            "Object": {
+			              "Role": "performance.measure_1_1_yr"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "performances_have_measure_1_1_yrs"
+			        }
+			      ]
+			    },
+			    "performance_has_measure_1_1_month": {
+			      "Binding": {
+			        "ConceptualEntity": "Performance"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "performance": {
+			          "Target": {
+			            "Entity": "performance"
+			          }
+			        },
+			        "performance.measure_1_1_month": {
+			          "Target": {
+			            "Entity": "performance.measure_1_1_month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "performance"
+			            },
+			            "Object": {
+			              "Role": "performance.measure_1_1_month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "performances_have_measure_1_1_months"
+			        }
+			      ]
+			    },
+			    "performance_has_measure_1": {
+			      "Binding": {
+			        "ConceptualEntity": "Performance"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "performance": {
+			          "Target": {
+			            "Entity": "performance"
+			          }
+			        },
+			        "performance.measure_1": {
+			          "Target": {
+			            "Entity": "performance.measure_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "performance"
+			            },
+			            "Object": {
+			              "Role": "performance.measure_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "performances_have_measure_1"
+			        }
+			      ]
+			    },
+			    "performance_has_fund_size_M_USD": {
+			      "Binding": {
+			        "ConceptualEntity": "Performance"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "performance": {
+			          "Target": {
+			            "Entity": "performance"
+			          }
+			        },
+			        "performance.fund_size_M_USD": {
+			          "Target": {
+			            "Entity": "performance.fund_size_M_USD"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "performance"
+			            },
+			            "Object": {
+			              "Role": "performance.fund_size_M_USD"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "performances_have_fund_size_M_USD"
+			        }
+			      ]
+			    },
+			    "performance_has_fund_size_M_GBP": {
+			      "Binding": {
+			        "ConceptualEntity": "Performance"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "performance": {
+			          "Target": {
+			            "Entity": "performance"
+			          }
+			        },
+			        "performance.fund_size_M_GBP": {
+			          "Target": {
+			            "Entity": "performance.fund_size_M_GBP"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "performance"
+			            },
+			            "Object": {
+			              "Role": "performance.fund_size_M_GBP"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "performances_have_fund_size_M_GBPs"
+			        }
+			      ]
+			    },
+			    "performance_has_fund_size_M_EUR": {
+			      "Binding": {
+			        "ConceptualEntity": "Performance"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "performance": {
+			          "Target": {
+			            "Entity": "performance"
+			          }
+			        },
+			        "performance.fund_size_M_EUR": {
+			          "Target": {
+			            "Entity": "performance.fund_size_M_EUR"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "performance"
+			            },
+			            "Object": {
+			              "Role": "performance.fund_size_M_EUR"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "performances_have_fund_size_M_EURs"
+			        }
+			      ]
+			    },
+			    "performance_has_fund_name": {
+			      "Binding": {
+			        "ConceptualEntity": "Performance"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "performance": {
+			          "Target": {
+			            "Entity": "performance"
+			          }
+			        },
+			        "performance.fund_name": {
+			          "Target": {
+			            "Entity": "performance.fund_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "performance"
+			            },
+			            "Object": {
+			              "Role": "performance.fund_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "performances_have_fund_names"
+			        }
+			      ]
+			    },
+			    "performance_has_fund_manager": {
+			      "Binding": {
+			        "ConceptualEntity": "Performance"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "performance": {
+			          "Target": {
+			            "Entity": "performance"
+			          }
+			        },
+			        "performance.fund_manager": {
+			          "Target": {
+			            "Entity": "performance.fund_manager"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "performance"
+			            },
+			            "Object": {
+			              "Role": "performance.fund_manager"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "performances_have_fund_managers"
+			        },
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "performance.fund_manager"
+			            },
+			            "Verbs": [
+			              {
+			                "manage": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "performance"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.75,
+			          "ID": "fund_managers_manage_performances"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "performance.fund_manager"
+			            },
+			            "Object": {
+			              "Role": "performance"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fund_managers_have_performances"
+			        }
+			      ]
+			    },
+			    "performance_has_fund_code__performance": {
+			      "Binding": {
+			        "ConceptualEntity": "Performance"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "performance": {
+			          "Target": {
+			            "Entity": "performance"
+			          }
+			        },
+			        "performance.fund_code__performance": {
+			          "Target": {
+			            "Entity": "performance.fund_code__performance"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "performance"
+			            },
+			            "Object": {
+			              "Role": "performance.fund_code__performance"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "performances_have_fund_code__performances"
+			        }
+			      ]
+			    },
+			    "performance_has_fund_code": {
+			      "Binding": {
+			        "ConceptualEntity": "Performance"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "performance": {
+			          "Target": {
+			            "Entity": "performance"
+			          }
+			        },
+			        "performance.fund_code": {
+			          "Target": {
+			            "Entity": "performance.fund_code"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "performance"
+			            },
+			            "Object": {
+			              "Role": "performance.fund_code"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "performances_have_fund_codes"
+			        }
+			      ]
+			    },
+			    "performance_has_department": {
+			      "Binding": {
+			        "ConceptualEntity": "Performance"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "performance": {
+			          "Target": {
+			            "Entity": "performance"
+			          }
+			        },
+			        "performance.department": {
+			          "Target": {
+			            "Entity": "performance.department"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "performance"
+			            },
+			            "Object": {
+			              "Role": "performance.department"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "performances_have_departments"
+			        }
+			      ]
+			    },
+			    "performance_has_key": {
+			      "Binding": {
+			        "ConceptualEntity": "Performance"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "performance": {
+			          "Target": {
+			            "Entity": "performance"
+			          }
+			        },
+			        "performance.key": {
+			          "Target": {
+			            "Entity": "performance.key"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "performance"
+			            },
+			            "Object": {
+			              "Role": "performance.key"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "performances_have_keys"
 			        }
 			      ]
 			    },
@@ -6431,1756 +9980,7 @@ cultureInfo en-GB
 			        }
 			      ]
 			    },
-			    "performance_has_key": {
-			      "Binding": {
-			        "ConceptualEntity": "Performance"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "performance": {
-			          "Target": {
-			            "Entity": "performance"
-			          }
-			        },
-			        "performance.key": {
-			          "Target": {
-			            "Entity": "performance.key"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "performance"
-			            },
-			            "Object": {
-			              "Role": "performance.key"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "performances_have_keys"
-			        }
-			      ]
-			    },
-			    "performance_has_department": {
-			      "Binding": {
-			        "ConceptualEntity": "Performance"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "performance": {
-			          "Target": {
-			            "Entity": "performance"
-			          }
-			        },
-			        "performance.department": {
-			          "Target": {
-			            "Entity": "performance.department"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "performance"
-			            },
-			            "Object": {
-			              "Role": "performance.department"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "performances_have_departments"
-			        }
-			      ]
-			    },
-			    "performance_has_fund_code": {
-			      "Binding": {
-			        "ConceptualEntity": "Performance"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "performance": {
-			          "Target": {
-			            "Entity": "performance"
-			          }
-			        },
-			        "performance.fund_code": {
-			          "Target": {
-			            "Entity": "performance.fund_code"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "performance"
-			            },
-			            "Object": {
-			              "Role": "performance.fund_code"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "performances_have_fund_codes"
-			        }
-			      ]
-			    },
-			    "performance_has_fund_code__performance": {
-			      "Binding": {
-			        "ConceptualEntity": "Performance"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "performance": {
-			          "Target": {
-			            "Entity": "performance"
-			          }
-			        },
-			        "performance.fund_code__performance": {
-			          "Target": {
-			            "Entity": "performance.fund_code__performance"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "performance"
-			            },
-			            "Object": {
-			              "Role": "performance.fund_code__performance"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "performances_have_fund_code__performances"
-			        }
-			      ]
-			    },
-			    "performance_has_fund_name": {
-			      "Binding": {
-			        "ConceptualEntity": "Performance"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "performance": {
-			          "Target": {
-			            "Entity": "performance"
-			          }
-			        },
-			        "performance.fund_name": {
-			          "Target": {
-			            "Entity": "performance.fund_name"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "performance"
-			            },
-			            "Object": {
-			              "Role": "performance.fund_name"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "performances_have_fund_names"
-			        }
-			      ]
-			    },
-			    "performance_has_fund_size_M_EUR": {
-			      "Binding": {
-			        "ConceptualEntity": "Performance"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "performance": {
-			          "Target": {
-			            "Entity": "performance"
-			          }
-			        },
-			        "performance.fund_size_M_EUR": {
-			          "Target": {
-			            "Entity": "performance.fund_size_M_EUR"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "performance"
-			            },
-			            "Object": {
-			              "Role": "performance.fund_size_M_EUR"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "performances_have_fund_size_M_EURs"
-			        }
-			      ]
-			    },
-			    "performance_has_fund_size_M_GBP": {
-			      "Binding": {
-			        "ConceptualEntity": "Performance"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "performance": {
-			          "Target": {
-			            "Entity": "performance"
-			          }
-			        },
-			        "performance.fund_size_M_GBP": {
-			          "Target": {
-			            "Entity": "performance.fund_size_M_GBP"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "performance"
-			            },
-			            "Object": {
-			              "Role": "performance.fund_size_M_GBP"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "performances_have_fund_size_M_GBPs"
-			        }
-			      ]
-			    },
-			    "performance_has_fund_size_M_USD": {
-			      "Binding": {
-			        "ConceptualEntity": "Performance"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "performance": {
-			          "Target": {
-			            "Entity": "performance"
-			          }
-			        },
-			        "performance.fund_size_M_USD": {
-			          "Target": {
-			            "Entity": "performance.fund_size_M_USD"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "performance"
-			            },
-			            "Object": {
-			              "Role": "performance.fund_size_M_USD"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "performances_have_fund_size_M_USD"
-			        }
-			      ]
-			    },
-			    "performance_has_measure_1": {
-			      "Binding": {
-			        "ConceptualEntity": "Performance"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "performance": {
-			          "Target": {
-			            "Entity": "performance"
-			          }
-			        },
-			        "performance.measure_1": {
-			          "Target": {
-			            "Entity": "performance.measure_1"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "performance"
-			            },
-			            "Object": {
-			              "Role": "performance.measure_1"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "performances_have_measure_1"
-			        }
-			      ]
-			    },
-			    "performance_has_measure_1_1_month": {
-			      "Binding": {
-			        "ConceptualEntity": "Performance"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "performance": {
-			          "Target": {
-			            "Entity": "performance"
-			          }
-			        },
-			        "performance.measure_1_1_month": {
-			          "Target": {
-			            "Entity": "performance.measure_1_1_month"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "performance"
-			            },
-			            "Object": {
-			              "Role": "performance.measure_1_1_month"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "performances_have_measure_1_1_months"
-			        }
-			      ]
-			    },
-			    "performance_has_measure_1_1_yr": {
-			      "Binding": {
-			        "ConceptualEntity": "Performance"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "performance": {
-			          "Target": {
-			            "Entity": "performance"
-			          }
-			        },
-			        "performance.measure_1_1_yr": {
-			          "Target": {
-			            "Entity": "performance.measure_1_1_yr"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "performance"
-			            },
-			            "Object": {
-			              "Role": "performance.measure_1_1_yr"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "performances_have_measure_1_1_yrs"
-			        }
-			      ]
-			    },
-			    "performance_has_measure_1_3_month": {
-			      "Binding": {
-			        "ConceptualEntity": "Performance"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "performance": {
-			          "Target": {
-			            "Entity": "performance"
-			          }
-			        },
-			        "performance.measure_1_3_month": {
-			          "Target": {
-			            "Entity": "performance.measure_1_3_month"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "performance"
-			            },
-			            "Object": {
-			              "Role": "performance.measure_1_3_month"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "performances_have_measure_1_3_months"
-			        }
-			      ]
-			    },
-			    "performance_has_measure_1_3_yrs_ann": {
-			      "Binding": {
-			        "ConceptualEntity": "Performance"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "performance": {
-			          "Target": {
-			            "Entity": "performance"
-			          }
-			        },
-			        "performance.measure_1_3_yrs_ann": {
-			          "Target": {
-			            "Entity": "performance.measure_1_3_yrs_ann"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "performance"
-			            },
-			            "Object": {
-			              "Role": "performance.measure_1_3_yrs_ann"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "performances_have_measure_1_3_yrs_ann"
-			        }
-			      ]
-			    },
-			    "performance_has_measure_1_5_yrs_ann": {
-			      "Binding": {
-			        "ConceptualEntity": "Performance"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "performance": {
-			          "Target": {
-			            "Entity": "performance"
-			          }
-			        },
-			        "performance.measure_1_5_yrs_ann": {
-			          "Target": {
-			            "Entity": "performance.measure_1_5_yrs_ann"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "performance"
-			            },
-			            "Object": {
-			              "Role": "performance.measure_1_5_yrs_ann"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "performances_have_measure_1_5_yrs_ann"
-			        }
-			      ]
-			    },
-			    "performance_has_measure_1_YTD": {
-			      "Binding": {
-			        "ConceptualEntity": "Performance"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "performance": {
-			          "Target": {
-			            "Entity": "performance"
-			          }
-			        },
-			        "performance.measure_1_YTD": {
-			          "Target": {
-			            "Entity": "performance.measure_1_YTD"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "performance"
-			            },
-			            "Object": {
-			              "Role": "performance.measure_1_YTD"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "performances_have_measure_1_YTD"
-			        }
-			      ]
-			    },
-			    "performance_has_original_fund_name": {
-			      "Binding": {
-			        "ConceptualEntity": "Performance"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "performance": {
-			          "Target": {
-			            "Entity": "performance"
-			          }
-			        },
-			        "performance.original_fund_name": {
-			          "Target": {
-			            "Entity": "performance.original_fund_name"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "performance"
-			            },
-			            "Object": {
-			              "Role": "performance.original_fund_name"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "performances_have_original_fund_names"
-			        }
-			      ]
-			    },
-			    "performance_has_performance_currency": {
-			      "Binding": {
-			        "ConceptualEntity": "Performance"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "performance": {
-			          "Target": {
-			            "Entity": "performance"
-			          }
-			        },
-			        "performance.performance_currency": {
-			          "Target": {
-			            "Entity": "performance.performance_currency"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "performance"
-			            },
-			            "Object": {
-			              "Role": "performance.performance_currency"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "performances_have_performance_currencies"
-			        }
-			      ]
-			    },
-			    "performance_has_performance_desk": {
-			      "Binding": {
-			        "ConceptualEntity": "Performance"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "performance": {
-			          "Target": {
-			            "Entity": "performance"
-			          }
-			        },
-			        "performance.performance_desk": {
-			          "Target": {
-			            "Entity": "performance.performance_desk"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "performance"
-			            },
-			            "Object": {
-			              "Role": "performance.performance_desk"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "performances_have_performance_desks"
-			        }
-			      ]
-			    },
-			    "performance_has_performance_symbol": {
-			      "Binding": {
-			        "ConceptualEntity": "Performance"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "performance": {
-			          "Target": {
-			            "Entity": "performance"
-			          }
-			        },
-			        "performance.performance_symbol": {
-			          "Target": {
-			            "Entity": "performance.performance_symbol"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "performance"
-			            },
-			            "Object": {
-			              "Role": "performance.performance_symbol"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "performances_have_performance_symbols"
-			        }
-			      ]
-			    },
-			    "performance_has_product_type": {
-			      "Binding": {
-			        "ConceptualEntity": "Performance"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "performance": {
-			          "Target": {
-			            "Entity": "performance"
-			          }
-			        },
-			        "performance.product_type": {
-			          "Target": {
-			            "Entity": "performance.product_type"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "performance"
-			            },
-			            "Object": {
-			              "Role": "performance.product_type"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "performances_have_product_types"
-			        }
-			      ]
-			    },
-			    "performance_has_profile_summary": {
-			      "Binding": {
-			        "ConceptualEntity": "Performance"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "performance": {
-			          "Target": {
-			            "Entity": "performance"
-			          }
-			        },
-			        "performance.profile_summary": {
-			          "Target": {
-			            "Entity": "performance.profile_summary"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "performance"
-			            },
-			            "Object": {
-			              "Role": "performance.profile_summary"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "performances_have_profile_summaries"
-			        }
-			      ]
-			    },
-			    "performance_has_profile_no": {
-			      "Binding": {
-			        "ConceptualEntity": "Performance"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "performance": {
-			          "Target": {
-			            "Entity": "performance"
-			          }
-			        },
-			        "performance.profile_no": {
-			          "Target": {
-			            "Entity": "performance.profile_no"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "performance"
-			            },
-			            "Object": {
-			              "Role": "performance.profile_no"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "performances_have_profile_noes"
-			        }
-			      ]
-			    },
-			    "position_has_key": {
-			      "Binding": {
-			        "ConceptualEntity": "Positions"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "position": {
-			          "Target": {
-			            "Entity": "position"
-			          }
-			        },
-			        "position.key": {
-			          "Target": {
-			            "Entity": "position.key"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "position"
-			            },
-			            "Object": {
-			              "Role": "position.key"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "positions_have_keys"
-			        }
-			      ]
-			    },
-			    "position_has_avg_cost": {
-			      "Binding": {
-			        "ConceptualEntity": "Positions"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "position": {
-			          "Target": {
-			            "Entity": "position"
-			          }
-			        },
-			        "position.avg_cost": {
-			          "Target": {
-			            "Entity": "position.avg_cost"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "position"
-			            },
-			            "Object": {
-			              "Role": "position.avg_cost"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "positions_have_avg_costs"
-			        }
-			      ]
-			    },
-			    "position_has_closing_price": {
-			      "Binding": {
-			        "ConceptualEntity": "Positions"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "position": {
-			          "Target": {
-			            "Entity": "position"
-			          }
-			        },
-			        "position.closing_price": {
-			          "Target": {
-			            "Entity": "position.closing_price"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "position"
-			            },
-			            "Object": {
-			              "Role": "position.closing_price"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "positions_have_closing_prices"
-			        }
-			      ]
-			    },
-			    "position_has_cost": {
-			      "Binding": {
-			        "ConceptualEntity": "Positions"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "position": {
-			          "Target": {
-			            "Entity": "position"
-			          }
-			        },
-			        "position.cost": {
-			          "Target": {
-			            "Entity": "position.cost"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "position"
-			            },
-			            "Object": {
-			              "Role": "position.cost"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "positions_have_costs"
-			        }
-			      ]
-			    },
-			    "position_has_curr": {
-			      "Binding": {
-			        "ConceptualEntity": "Positions"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "position": {
-			          "Target": {
-			            "Entity": "position"
-			          }
-			        },
-			        "position.curr": {
-			          "Target": {
-			            "Entity": "position.curr"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "position"
-			            },
-			            "Object": {
-			              "Role": "position.curr"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "positions_have_currs"
-			        }
-			      ]
-			    },
-			    "position_has_cusip": {
-			      "Binding": {
-			        "ConceptualEntity": "Positions"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "position": {
-			          "Target": {
-			            "Entity": "position"
-			          }
-			        },
-			        "position.cusip": {
-			          "Target": {
-			            "Entity": "position.cusip"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "position"
-			            },
-			            "Object": {
-			              "Role": "position.cusip"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "positions_have_cusips"
-			        }
-			      ]
-			    },
-			    "position_has_desk": {
-			      "Binding": {
-			        "ConceptualEntity": "Positions"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "position": {
-			          "Target": {
-			            "Entity": "position"
-			          }
-			        },
-			        "position.desk": {
-			          "Target": {
-			            "Entity": "position.desk"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "position"
-			            },
-			            "Object": {
-			              "Role": "position.desk"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "positions_have_desks"
-			        }
-			      ]
-			    },
-			    "position_has_FTSE_industry": {
-			      "Binding": {
-			        "ConceptualEntity": "Positions"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "position": {
-			          "Target": {
-			            "Entity": "position"
-			          }
-			        },
-			        "position.FTSE_industry": {
-			          "Target": {
-			            "Entity": "position.FTSE_industry"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "position"
-			            },
-			            "Object": {
-			              "Role": "position.FTSE_industry"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "positions_have_FTSE_industries"
-			        }
-			      ]
-			    },
-			    "position_has_FTSE_sector": {
-			      "Binding": {
-			        "ConceptualEntity": "Positions"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "position": {
-			          "Target": {
-			            "Entity": "position"
-			          }
-			        },
-			        "position.FTSE_sector": {
-			          "Target": {
-			            "Entity": "position.FTSE_sector"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "position"
-			            },
-			            "Object": {
-			              "Role": "position.FTSE_sector"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "positions_have_FTSE_sectors"
-			        }
-			      ]
-			    },
-			    "position_has_fund_code__position": {
-			      "Binding": {
-			        "ConceptualEntity": "Positions"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "position": {
-			          "Target": {
-			            "Entity": "position"
-			          }
-			        },
-			        "position.fund_code__position": {
-			          "Target": {
-			            "Entity": "position.fund_code__position"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "position"
-			            },
-			            "Object": {
-			              "Role": "position.fund_code__position"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "positions_have_fund_code__positions"
-			        }
-			      ]
-			    },
-			    "position_has_fund_code__position_org": {
-			      "Binding": {
-			        "ConceptualEntity": "Positions"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "position": {
-			          "Target": {
-			            "Entity": "position"
-			          }
-			        },
-			        "position.fund_code__position_org": {
-			          "Target": {
-			            "Entity": "position.fund_code__position_org"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "position"
-			            },
-			            "Object": {
-			              "Role": "position.fund_code__position_org"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "positions_have_fund_code__position_org"
-			        }
-			      ]
-			    },
-			    "position_has_last_exec_price": {
-			      "Binding": {
-			        "ConceptualEntity": "Positions"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "position": {
-			          "Target": {
-			            "Entity": "position"
-			          }
-			        },
-			        "position.last_exec_price": {
-			          "Target": {
-			            "Entity": "position.last_exec_price"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "position"
-			            },
-			            "Object": {
-			              "Role": "position.last_exec_price"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "positions_have_last_exec_prices"
-			        }
-			      ]
-			    },
-			    "position_has_mkt": {
-			      "Binding": {
-			        "ConceptualEntity": "Positions"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "position": {
-			          "Target": {
-			            "Entity": "position"
-			          }
-			        },
-			        "position.mkt": {
-			          "Target": {
-			            "Entity": "position.mkt"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "position"
-			            },
-			            "Object": {
-			              "Role": "position.mkt"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "positions_have_mkts"
-			        }
-			      ]
-			    },
-			    "position_has_open_price": {
-			      "Binding": {
-			        "ConceptualEntity": "Positions"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "position": {
-			          "Target": {
-			            "Entity": "position"
-			          }
-			        },
-			        "position.open_price": {
-			          "Target": {
-			            "Entity": "position.open_price"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "position"
-			            },
-			            "Object": {
-			              "Role": "position.open_price"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "positions_have_open_prices"
-			        }
-			      ]
-			    },
-			    "position_has_position_created_date": {
-			      "Binding": {
-			        "ConceptualEntity": "Positions"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "position": {
-			          "Target": {
-			            "Entity": "position"
-			          }
-			        },
-			        "position.position_created_date": {
-			          "Target": {
-			            "Entity": "position.position_created_date"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "position"
-			            },
-			            "Object": {
-			              "Role": "position.position_created_date"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "positions_have_position_created_dates"
-			        }
-			      ]
-			    },
-			    "position_has_position_value_date": {
-			      "Binding": {
-			        "ConceptualEntity": "Positions"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "position": {
-			          "Target": {
-			            "Entity": "position"
-			          }
-			        },
-			        "position.position_value_date": {
-			          "Target": {
-			            "Entity": "position.position_value_date"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "position"
-			            },
-			            "Object": {
-			              "Role": "position.position_value_date"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "positions_have_position_value_dates"
-			        }
-			      ]
-			    },
-			    "position_has_quantity": {
-			      "Binding": {
-			        "ConceptualEntity": "Positions"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "position": {
-			          "Target": {
-			            "Entity": "position"
-			          }
-			        },
-			        "position.quantity": {
-			          "Target": {
-			            "Entity": "position.quantity"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "position"
-			            },
-			            "Object": {
-			              "Role": "position.quantity"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "positions_have_quantities"
-			        }
-			      ]
-			    },
-			    "position_has_shares_outstanding": {
-			      "Binding": {
-			        "ConceptualEntity": "Positions"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "position": {
-			          "Target": {
-			            "Entity": "position"
-			          }
-			        },
-			        "position.shares_outstanding": {
-			          "Target": {
-			            "Entity": "position.shares_outstanding"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "position"
-			            },
-			            "Object": {
-			              "Role": "position.shares_outstanding"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "positions_have_shares_outstanding"
-			        }
-			      ]
-			    },
-			    "position_has_strike_price": {
-			      "Binding": {
-			        "ConceptualEntity": "Positions"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "position": {
-			          "Target": {
-			            "Entity": "position"
-			          }
-			        },
-			        "position.strike_price": {
-			          "Target": {
-			            "Entity": "position.strike_price"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "position"
-			            },
-			            "Object": {
-			              "Role": "position.strike_price"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "positions_have_strike_prices"
-			        }
-			      ]
-			    },
-			    "position_has_value": {
-			      "Binding": {
-			        "ConceptualEntity": "Positions"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "position": {
-			          "Target": {
-			            "Entity": "position"
-			          }
-			        },
-			        "position.value": {
-			          "Target": {
-			            "Entity": "position.value"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "position"
-			            },
-			            "Object": {
-			              "Role": "position.value"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "positions_have_values"
-			        }
-			      ]
-			    },
-			    "aum_has_of_fund": {
-			      "Binding": {
-			        "ConceptualEntity": "AUM"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "aum": {
-			          "Target": {
-			            "Entity": "aum"
-			          }
-			        },
-			        "aum.of_fund": {
-			          "Target": {
-			            "Entity": "aum.of_fund"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "aum"
-			            },
-			            "Object": {
-			              "Role": "aum.of_fund"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "aum_have__of_fund"
-			        }
-			      ]
-			    },
-			    "aum_has_key": {
-			      "Binding": {
-			        "ConceptualEntity": "AUM"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "aum": {
-			          "Target": {
-			            "Entity": "aum"
-			          }
-			        },
-			        "aum.key": {
-			          "Target": {
-			            "Entity": "aum.key"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "aum"
-			            },
-			            "Object": {
-			              "Role": "aum.key"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "aum_have_keys"
-			        }
-			      ]
-			    },
-			    "aum_has_account_name": {
-			      "Binding": {
-			        "ConceptualEntity": "AUM"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "aum": {
-			          "Target": {
-			            "Entity": "aum"
-			          }
-			        },
-			        "aum.account_name": {
-			          "Target": {
-			            "Entity": "aum.account_name"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "aum"
-			            },
-			            "Object": {
-			              "Role": "aum.account_name"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "aum_have_account_names"
-			        }
-			      ]
-			    },
-			    "aum_has_asset_class": {
-			      "Binding": {
-			        "ConceptualEntity": "AUM"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "aum": {
-			          "Target": {
-			            "Entity": "aum"
-			          }
-			        },
-			        "aum.asset_class": {
-			          "Target": {
-			            "Entity": "aum.asset_class"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "aum"
-			            },
-			            "Object": {
-			              "Role": "aum.asset_class"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "aum_have_asset_classes"
-			        }
-			      ]
-			    },
-			    "aum_has_asset_EUR": {
-			      "Binding": {
-			        "ConceptualEntity": "AUM"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "aum": {
-			          "Target": {
-			            "Entity": "aum"
-			          }
-			        },
-			        "aum.asset_EUR": {
-			          "Target": {
-			            "Entity": "aum.asset_EUR"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "aum"
-			            },
-			            "Object": {
-			              "Role": "aum.asset_EUR"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "aum_have_asset_EURs"
-			        }
-			      ]
-			    },
-			    "aum_has_asset_GBP": {
-			      "Binding": {
-			        "ConceptualEntity": "AUM"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "aum": {
-			          "Target": {
-			            "Entity": "aum"
-			          }
-			        },
-			        "aum.asset_GBP": {
-			          "Target": {
-			            "Entity": "aum.asset_GBP"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "aum"
-			            },
-			            "Object": {
-			              "Role": "aum.asset_GBP"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "aum_have_asset_GBPs"
-			        }
-			      ]
-			    },
-			    "aum_has_asset_USD": {
-			      "Binding": {
-			        "ConceptualEntity": "AUM"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "aum": {
-			          "Target": {
-			            "Entity": "aum"
-			          }
-			        },
-			        "aum.asset_USD": {
-			          "Target": {
-			            "Entity": "aum.asset_USD"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "aum"
-			            },
-			            "Object": {
-			              "Role": "aum.asset_USD"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "aum_have_asset_USD"
-			        }
-			      ]
-			    },
-			    "aum_has_business_type": {
-			      "Binding": {
-			        "ConceptualEntity": "AUM"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "aum": {
-			          "Target": {
-			            "Entity": "aum"
-			          }
-			        },
-			        "aum.business_type": {
-			          "Target": {
-			            "Entity": "aum.business_type"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "aum"
-			            },
-			            "Object": {
-			              "Role": "aum.business_type"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "aum_have_business_types"
-			        }
-			      ]
-			    },
-			    "aum_has_business_unit": {
-			      "Binding": {
-			        "ConceptualEntity": "AUM"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "aum": {
-			          "Target": {
-			            "Entity": "aum"
-			          }
-			        },
-			        "aum.business_unit": {
-			          "Target": {
-			            "Entity": "aum.business_unit"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "aum"
-			            },
-			            "Object": {
-			              "Role": "aum.business_unit"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "aum_have_business_units"
-			        }
-			      ]
-			    },
-			    "aum_has_capability___investment_style": {
-			      "Binding": {
-			        "ConceptualEntity": "AUM"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "aum": {
-			          "Target": {
-			            "Entity": "aum"
-			          }
-			        },
-			        "aum.capability___investment_style": {
-			          "Target": {
-			            "Entity": "aum.capability___investment_style"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "aum"
-			            },
-			            "Object": {
-			              "Role": "aum.capability___investment_style"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "aum_have_capability___investment_styles"
-			        }
-			      ]
-			    },
-			    "aum_has_client_country": {
-			      "Binding": {
-			        "ConceptualEntity": "AUM"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "aum": {
-			          "Target": {
-			            "Entity": "aum"
-			          }
-			        },
-			        "aum.client_country": {
-			          "Target": {
-			            "Entity": "aum.client_country"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "aum"
-			            },
-			            "Object": {
-			              "Role": "aum.client_country"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "aum_have_client_countries"
-			        }
-			      ]
-			    },
-			    "aum_has_client_region": {
+			    "aum_in_client_region": {
 			      "Binding": {
 			        "ConceptualEntity": "AUM"
 			      },
@@ -8197,23 +9997,35 @@ cultureInfo en-GB
 			          }
 			        }
 			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "aum.client_region"
+			        }
+			      },
 			      "Phrasings": [
 			        {
-			          "Attribute": {
+			          "Preposition": {
 			            "Subject": {
 			              "Role": "aum"
 			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
 			            "Object": {
 			              "Role": "aum.client_region"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "aum_have_client_regions"
+			          "ID": "aum_are_in_client_regions"
 			        }
 			      ]
 			    },
-			    "aum_has_client_type": {
+			    "aum_in_client_country": {
 			      "Binding": {
 			        "ConceptualEntity": "AUM"
 			      },
@@ -8224,29 +10036,41 @@ cultureInfo en-GB
 			            "Entity": "aum"
 			          }
 			        },
-			        "aum.client_type": {
+			        "aum.client_country": {
 			          "Target": {
-			            "Entity": "aum.client_type"
+			            "Entity": "aum.client_country"
 			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "aum.client_country"
 			        }
 			      },
 			      "Phrasings": [
 			        {
-			          "Attribute": {
+			          "Preposition": {
 			            "Subject": {
 			              "Role": "aum"
 			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
 			            "Object": {
-			              "Role": "aum.client_type"
+			              "Role": "aum.client_country"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "aum_have_client_types"
+			          "ID": "aum_are_in_client_countries"
 			        }
 			      ]
 			    },
-			    "aum_has_fund_code__AUM": {
+			    "aum_has_entity__measure_lowest_asset_invested": {
 			      "Binding": {
 			        "ConceptualEntity": "AUM"
 			      },
@@ -8257,9 +10081,9 @@ cultureInfo en-GB
 			            "Entity": "aum"
 			          }
 			        },
-			        "aum.fund_code__AUM": {
+			        "entity__measure.lowest_asset_invested": {
 			          "Target": {
-			            "Entity": "aum.fund_code__AUM"
+			            "Entity": "entity__measure.lowest_asset_invested"
 			          }
 			        }
 			      },
@@ -8270,29 +10094,29 @@ cultureInfo en-GB
 			              "Role": "aum"
 			            },
 			            "Object": {
-			              "Role": "aum.fund_code__AUM"
+			              "Role": "entity__measure.lowest_asset_invested"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "aum_have_fund_code__AUM"
+			          "ID": "aum_have_lowest_asset_invested"
 			        }
 			      ]
 			    },
-			    "aum_has_fund_type": {
+			    "currency_has_entity__measure_lowest_asset_invested": {
 			      "Binding": {
-			        "ConceptualEntity": "AUM"
+			        "ConceptualEntity": "Currency"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "aum": {
+			        "currency": {
 			          "Target": {
-			            "Entity": "aum"
+			            "Entity": "currency"
 			          }
 			        },
-			        "aum.fund_type": {
+			        "entity__measure.lowest_asset_invested": {
 			          "Target": {
-			            "Entity": "aum.fund_type"
+			            "Entity": "entity__measure.lowest_asset_invested"
 			          }
 			        }
 			      },
@@ -8300,32 +10124,32 @@ cultureInfo en-GB
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "aum"
+			              "Role": "currency"
 			            },
 			            "Object": {
-			              "Role": "aum.fund_type"
+			              "Role": "entity__measure.lowest_asset_invested"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "aum_have_fund_types"
+			          "ID": "currencies_have_lowest_asset_invested"
 			        }
 			      ]
 			    },
-			    "aum_has_gross_fund_val": {
+			    "entity__measure_has_test_measure": {
 			      "Binding": {
-			        "ConceptualEntity": "AUM"
+			        "ConceptualEntity": "_Measures"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "aum": {
+			        "entity__measure": {
 			          "Target": {
-			            "Entity": "aum"
+			            "Entity": "entity__measure"
 			          }
 			        },
-			        "aum.gross_fund_val": {
+			        "entity__measure.test_measure": {
 			          "Target": {
-			            "Entity": "aum.gross_fund_val"
+			            "Entity": "entity__measure.test_measure"
 			          }
 			        }
 			      },
@@ -8333,32 +10157,32 @@ cultureInfo en-GB
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "aum"
+			              "Role": "entity__measure"
 			            },
 			            "Object": {
-			              "Role": "aum.gross_fund_val"
+			              "Role": "entity__measure.test_measure"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "aum_have_gross_fund_val"
+			          "ID": "Phrasing_measures_have_test_measure"
 			        }
 			      ]
 			    },
-			    "aum_has_investment_intensity": {
+			    "currency_has_entity__measure_current_currency": {
 			      "Binding": {
-			        "ConceptualEntity": "AUM"
+			        "ConceptualEntity": "Currency"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "aum": {
+			        "currency": {
 			          "Target": {
-			            "Entity": "aum"
+			            "Entity": "currency"
 			          }
 			        },
-			        "aum.investment_intensity": {
+			        "entity__measure.current_currency": {
 			          "Target": {
-			            "Entity": "aum.investment_intensity"
+			            "Entity": "entity__measure.current_currency"
 			          }
 			        }
 			      },
@@ -8366,213 +10190,15 @@ cultureInfo en-GB
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "aum"
+			              "Role": "currency"
 			            },
 			            "Object": {
-			              "Role": "aum.investment_intensity"
+			              "Role": "entity__measure.current_currency"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "aum_have_investment_intensities"
-			        }
-			      ]
-			    },
-			    "aum_has_investment_region": {
-			      "Binding": {
-			        "ConceptualEntity": "AUM"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "aum": {
-			          "Target": {
-			            "Entity": "aum"
-			          }
-			        },
-			        "aum.investment_region": {
-			          "Target": {
-			            "Entity": "aum.investment_region"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "aum"
-			            },
-			            "Object": {
-			              "Role": "aum.investment_region"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "aum_have_investment_regions"
-			        }
-			      ]
-			    },
-			    "aum_has_pooled_fund_if_applicable": {
-			      "Binding": {
-			        "ConceptualEntity": "AUM"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "aum": {
-			          "Target": {
-			            "Entity": "aum"
-			          }
-			        },
-			        "aum.pooled_fund_if_applicable": {
-			          "Target": {
-			            "Entity": "aum.pooled_fund_if_applicable"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "aum"
-			            },
-			            "Object": {
-			              "Role": "aum.pooled_fund_if_applicable"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "aum_have_pooled_fund_if_applicable"
-			        }
-			      ]
-			    },
-			    "aum_has_referral_source": {
-			      "Binding": {
-			        "ConceptualEntity": "AUM"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "aum": {
-			          "Target": {
-			            "Entity": "aum"
-			          }
-			        },
-			        "aum.referral_source": {
-			          "Target": {
-			            "Entity": "aum.referral_source"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "aum"
-			            },
-			            "Object": {
-			              "Role": "aum.referral_source"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "aum_have_referral_sources"
-			        }
-			      ]
-			    },
-			    "aum_has_segregated___pooled": {
-			      "Binding": {
-			        "ConceptualEntity": "AUM"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "aum": {
-			          "Target": {
-			            "Entity": "aum"
-			          }
-			        },
-			        "aum.segregated___pooled": {
-			          "Target": {
-			            "Entity": "aum.segregated___pooled"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "aum"
-			            },
-			            "Object": {
-			              "Role": "aum.segregated___pooled"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "aum_have_segregated___pooled"
-			        }
-			      ]
-			    },
-			    "aum_has_tax_status": {
-			      "Binding": {
-			        "ConceptualEntity": "AUM"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "aum": {
-			          "Target": {
-			            "Entity": "aum"
-			          }
-			        },
-			        "aum.tax_status": {
-			          "Target": {
-			            "Entity": "aum.tax_status"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "aum"
-			            },
-			            "Object": {
-			              "Role": "aum.tax_status"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "aum_have_tax_statuses"
-			        }
-			      ]
-			    },
-			    "aum_has_AUM_total": {
-			      "Binding": {
-			        "ConceptualEntity": "AUM"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "aum": {
-			          "Target": {
-			            "Entity": "aum"
-			          }
-			        },
-			        "aum.AUM_total": {
-			          "Target": {
-			            "Entity": "aum.AUM_total"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "aum"
-			            },
-			            "Object": {
-			              "Role": "aum.AUM_total"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "aum_have_AUM_total"
+			          "ID": "currencies_have_current_currency"
 			        }
 			      ]
 			    }
