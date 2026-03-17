@@ -64,10 +64,6 @@ table _Measures
 			    ) & "" & "ml"
 		lineageTag: 360a097f-0ca4-48b3-ac79-76e051fb2d64
 
-	measure TestMeasure = LEN("AMP International Equity index Tracking Fund")
-		formatString: 0
-		lineageTag: 8b1dab05-0e32-4dae-b9d5-d8a7781a35f1
-
 	measure 'Current Currency' = SELECTEDVALUE('Currency'[Currency Abr Name])
 		lineageTag: c40d6f29-1be9-4f4a-bce7-d1afcf1f76aa
 
@@ -84,6 +80,9 @@ table _Measures
 			    )
 		formatString: 0
 		lineageTag: 7b4e8f9f-dd32-43e8-a67f-846e04457300
+
+	measure LastRefreshDate = FORMAT(NOW(), "dd/MM/yyyy HH:mm:ss")
+		lineageTag: b9fc638b-0434-447c-b99a-ff2dcf48fd57
 
 	column Column
 		formatString: 0

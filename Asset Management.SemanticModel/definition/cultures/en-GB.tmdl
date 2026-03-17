@@ -7035,135 +7035,6 @@ cultureInfo en-GB
 			        }
 			      ]
 			    },
-			    "entity__measure.test_measure": {
-			      "Definition": {
-			        "Binding": {
-			          "ConceptualEntity": "_Measures",
-			          "ConceptualProperty": "TestMeasure"
-			        }
-			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "test measure": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "TestMeasure": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.99
-			          }
-			        },
-			        {
-			          "measure": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "test degree": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.5
-			          }
-			        },
-			        {
-			          "test quantity": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.5
-			          }
-			        },
-			        {
-			          "test quota": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.5
-			          }
-			        },
-			        {
-			          "test extent": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.5
-			          }
-			        },
-			        {
-			          "degree": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.491
-			          }
-			        },
-			        {
-			          "quota": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.491
-			          }
-			        },
-			        {
-			          "extent": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.491
-			          }
-			        },
-			        {
-			          "test amount": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.485
-			          }
-			        },
-			        {
-			          "test portion": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.485
-			          }
-			        },
-			        {
-			          "test ration": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.485
-			          }
-			        }
-			      ]
-			    },
 			    "entity__measure.current_currency": {
 			      "Definition": {
 			        "Binding": {
@@ -7276,6 +7147,59 @@ cultureInfo en-GB
 			              "Agent": "Thesaurus"
 			            },
 			            "Weight": 0.475
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.AUM_total_raw": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "AUM_Total_Raw"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "AUM total raw": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "AUM_Total_Raw": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "aum aggregate raw": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "aum overall raw": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "Assets": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
 			          }
 			        }
 			      ]
@@ -10199,6 +10123,72 @@ cultureInfo en-GB
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "currencies_have_current_currency"
+			        }
+			      ]
+			    },
+			    "aum_has_entity__measure_AUM_total_raw": {
+			      "Binding": {
+			        "ConceptualEntity": "AUM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "aum": {
+			          "Target": {
+			            "Entity": "aum"
+			          }
+			        },
+			        "entity__measure.AUM_total_raw": {
+			          "Target": {
+			            "Entity": "entity__measure.AUM_total_raw"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "aum"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.AUM_total_raw"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "aum_have_AUM_total_raw"
+			        }
+			      ]
+			    },
+			    "currency_has_entity__measure_AUM_total_raw": {
+			      "Binding": {
+			        "ConceptualEntity": "Currency"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "currency": {
+			          "Target": {
+			            "Entity": "currency"
+			          }
+			        },
+			        "entity__measure.AUM_total_raw": {
+			          "Target": {
+			            "Entity": "entity__measure.AUM_total_raw"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "currency"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.AUM_total_raw"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "currencies_have_AUM_total_raw"
 			        }
 			      ]
 			    }
