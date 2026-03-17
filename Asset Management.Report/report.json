@@ -269,15 +269,6 @@
           "x": 1061.57,
           "y": 683.75,
           "z": 1.00
-        },
-        {
-          "config": "{\"name\":\"b903a2d874a79ae5e601\",\"layouts\":[{\"id\":0,\"position\":{\"x\":461.3651877133106,\"y\":455.83617747440275,\"z\":0,\"width\":104.43686006825939,\"height\":70.03412969283276,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"\"}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#B9CADA'\"}}}}}}}]}}}",
-          "filters": "[]",
-          "height": 70.03,
-          "width": 104.44,
-          "x": 461.37,
-          "y": 455.84,
-          "z": 0.00
         }
       ],
       "width": 1280.00
