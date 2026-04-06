@@ -4,12 +4,12 @@ This project recreates an asset management dashboard originally built in Qlik, f
 
 **Key Features**
 
-Asset overview KPIs
-Trend analysis
-Data modelling approach
-Designed for stakeholder reporting
+Asset overview KPIs 
+Trend analysis <br>
+Data modelling approach <br>
+Designed for stakeholder reporting <br>
 
 **Tools**
 
-Power BI
+Power BI <br>
 Qlik
