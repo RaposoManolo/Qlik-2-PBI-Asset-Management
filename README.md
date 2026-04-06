@@ -14,5 +14,10 @@ Designed for stakeholder reporting <br>
 Power BI <br>
 Qlik
 
-<img width="1408" height="768" alt="DashboardCover" src="https://github.com/user-attachments/assets/00ddbf10-325e-4e02-a4e0-988e870e6bf7" />
+**Cover Page**
+<img width="1408" height="700" alt="DashboardCover" src="https://github.com/user-attachments/assets/e6c6b5e9-f891-438a-bf19-92406b9cfd26" /> <br>
+
+**Overview Page**
+<img width="1437" height="801" alt="Overview" src="https://github.com/user-attachments/assets/e7043e30-cf0e-4f01-809f-0a26ba8f0e4b" />
+
 
